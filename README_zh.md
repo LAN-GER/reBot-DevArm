@@ -5,6 +5,12 @@
 </p>
 
 <p align="center">
+    <a href="https://certification.oshwa.org/cn000024.html">
+  <img src="./media/certification-mark-CN000024-wide.png" width="180">
+</a>
+</p>
+
+<p align="center">
     <a href="./LICENSE">
     <img src="https://img.shields.io/badge/License-CERN--OHL--W--2.0--for--hardware-green.svg" alt="License: CERN-OHL-W-2.0">
     </a>
@@ -128,6 +134,11 @@ reBot-DevArm 专为桌面级具身智能应用设计，兼顾了负载能力与�
 | **自由度 (DOF)** | 6 DOF + 1 夹爪|
 | **支持平台/生态** | ROS1, ROS2, LeRobot, Pinocchio, Isaac Sim, Python SDK |
 | **供电电压** | DC 24V |
+
+## 有意思的社区项目
+| <img src="/community/from_Linyan.png" height="100">   |<img src="/community/from_Diddi.png" height="100">  |<img src="/community/from_Henderson.jpg" height="100">  | <img src="/community/from_Sameer.png" height="100">|
+| --- | --- | --- | --- | 
+| [From Linyan Fu](https://x.com/Linyan_Fu/status/2056383947341525180)  and [Apheth D Almeida](https://x.com/Apheth_DAlmeida/status/2053503164507476096)| [From Dhruv Diddi](https://x.com/DhruvDiddi/status/2046605015008383284)  | [From Ed Henderson](https://x.com/ed0henderson/status/2055076839002095743)  | [From Sameer Shah Teams](https://www.youtube.com/watch?v=fM01HolVl1U&t=15s) | 
 
 ## 🧹可选硬件
 ### 腕部相机支架
