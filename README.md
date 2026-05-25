@@ -137,9 +137,9 @@ reBot-DevArm is designed for desktop Embodied AI applications, balancing payload
 | **Supply Voltage** | DC 24V |
 
 ## Feedback from the community
-| <img src="/community/from_Linyan.png" height="100">   |<img src="/community/from_Diddi.png" height="100">  |<img src="/community/from_Henderson.jpg" height="100">  | <img src="/community/from_Sameer.png" height="100">|
-| --- | --- | --- | --- | 
-| [From Linyan Fu](https://x.com/Linyan_Fu/status/2056383947341525180)  and [Apheth D Almeida](https://x.com/Apheth_DAlmeida/status/2053503164507476096)| [From Dhruv Diddi](https://x.com/DhruvDiddi/status/2046605015008383284)  | [From Ed Henderson](https://x.com/ed0henderson/status/2055076839002095743)  | [From Sameer Shah Teams](https://www.youtube.com/watch?v=fM01HolVl1U&t=15s) | 
+| <img src="/community/GEM-4.png" height="100"> | <img src="/community/from_Linyan.png" height="100">   |<img src="/community/from_Diddi.png" height="100">  |<img src="/community/from_Henderson.jpg" height="100">  | <img src="/community/from_Sameer.png" height="100">|
+| --- | --- | --- | --- |  --- | 
+| [From GEM-4: Gemma Embodied 4 Physical Assistance](https://www.youtube.com/watch?v=OhaIA3bYwmg) | [From Linyan Fu](https://x.com/Linyan_Fu/status/2056383947341525180)  and [Apheth D Almeida](https://x.com/Apheth_DAlmeida/status/2053503164507476096)| [From Dhruv Diddi](https://x.com/DhruvDiddi/status/2046605015008383284)  | [From Ed Henderson](https://x.com/ed0henderson/status/2055076839002095743)  | [From Sameer Shah Teams](https://www.youtube.com/watch?v=fM01HolVl1U&t=15s) | 
 
 ## 🧹Optional Hardware
 ###  Wirst Camera Mount
