@@ -169,10 +169,56 @@ You may modify your base freely based on the 3D printed parts we provide. You ca
 ### About Power Supply
 The robotic arm is shipped without a power supply by default. You may connect your own battery, or purchase a reliable 24V 14.6A MeanWell power supply made in Taiwan. Additionally, you will need to buy a three-pin plug compliant with local standards and a wiring harness with XT30 female connector.
 
-  | Name | Specification / Model | Quantity | Reference Price | Notes |
-  |------|----------|------|----------|------|
-  | Power supply | 24V 14.6A | 1 | 30$ | [Amazong](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12/ref=sr_1_1?crid=2559HZMZF6ZUS&dib=eyJ2IjoiMSJ9.vpZwmjb4m5KMNcsg2Kb7wtfqG-A8US11Eaq0B9JOtKBwPyL6ZyUXh5oUrc5lyVLibya9NQ3n4OUjZ1INKKXLtwJWsRJbA_cPohVKu19q3esXrAY8YFpA4teehMNx3zdrt_WhXZyo1zxQUEHgh558m0vuZ0G1KjW3Rk9LOUVn0olRD-nnyvOwhNycxZqoO9KHkTt4q3kkDNEtn_iAH3x1C6wSv97gxI3nFKhXETsCou11G6_97-PJwk6cEkm2aOT2Yg-xm-uYfNMg85_QRFEDdsY-yeC_8n55d_auTSqqc38.SwYH_qOo0fEt9xkz_H6RWeZ78kxrOs9QKhGEKhmfRBs&dib_tag=se&keywords=Power+supply+24V+14.6A&qid=1774772552&s=industrial&sprefix=power+supply+24v+14.6a%2Cindustrial%2C333&sr=1-1) |
-  | Power Cable | 12AWG | 1 | 30 $ | [Amazong](https://www.amazon.com/Pinfox-Universal-Appliance-Replacement-Pigtail/dp/B0F5PW5SJG/ref=sr_1_6?crid=1EIU51YZCRLT9&dib=eyJ2IjoiMSJ9.SAX2wYEran7eecwu4SDFfugT8z0m8kjFOv972WAv1aoYMTB-us_RgARfoKz3G9hpFqw3p4dtTfzyPzH-pQoitReEJ_DMB-xmLUg3nA3uRNNmYF9Zl9d9iX6yCcU6lCpE_GL9-oqRlTC4A2t1--_88yskpiLLBpx50I08Ze8ql2L6fVikg6k6wx6rTvhpLEHZHqDyITCApEDPPygOu4x8BkY68RpMAM1_Fsd_1M-GMb0YlT2p2u6ywbO08KJg0c3QMfTApauxKjB5INgnxKV9EspudalX0FbQUF1DBc8Fh7s.jtylu4ii8VEhu1FJG6P7h6vw5M7rNci4iQPj8IhOfr8&dib_tag=se&keywords=Power%2BCable&qid=1774772590&s=industrial&sprefix=power%2Bcab%2Cindustrial%2C413&sr=1-6&th=1) |
-  | Power Cable | XT30 16awg | 1 | 9 $ | [Amazong](https://www.amazon.com/RioRand-Connector-Pigtail-Silicone-Aircraft/dp/B0FY2ZCR83/ref=sr_1_8?crid=1I8XB5AF5YIPA&dib=eyJ2IjoiMSJ9.8Cx4Olln9I8dGnZGL6MRb6AdEsUY70emHKd_NuuvYCBdrZWbUbSmWDDnYirfmFQVEexy0_clLKn2bi2DcGzjf_OEu1RM9j71jZ0-eL2Hgr0AOzFRl06OY7dQE0eMIXesWqJhHUkUoQFTA6EIegYoIUURzHkZAbT3CZyTpQoWYHOfVECyAsKDsKLoekybImOwDe1X9Ub4vawG56Ov7nBLWXf81DpwV-bH9H0kM1jTJaacHHII9eFWdd-50tChIRSI6Ld0kUIvOqbWOWHMshFgK7lHSa76icMJwJOZaruti0c.erWlQgcCcuEDYLFVqRIp7CpmiONST0SMW8W1OT-OnMg&dib_tag=se&keywords=XT30%2B14awg&qid=1774772667&s=industrial&sprefix=xt30%2B14a%2Cindustrial%2C350&sr=1-8&th=1) |
+#### Consumables BOM
 
+| Name | Specification | Qty | Reference Price | Notes | Image |
+|:---|:---|:---:|:---:|:---|:---:|
+| Power Supply | LRS-350-24 (24V 14.6A) | 1 | $27.35 | [amazon](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12/ref=sr_1_1?crid=36B2HIB8MM2IT&dib=eyJ2IjoiMSJ9.vpZwmjb4m5KMNcsg2Kb7wr8DDWa-ryUqO5fConlxqlsGoTVB5HN2uBBnRNZI0kcACiaR5DKFiYWvIHLEUN3luZqJAzogeQkeT-fol0m835-oBBWSud1ixkGayrl5nRsF5KMgfvkwAIW949dTTpU2CWdNMrf8g43_vKWaytfX9SHeMJ1hmhS6Kab6fBgER6CgB47K_eEmoJj3KhrjJMtn980osDG-bCLniBcRAHThmXsVRVdpGPsmckGLLyaXrIGRG9plhKI-F7H8hfqW7vzGbwIV_bF8cFtRjdRm5Shtb0o.ekLYD0hsc1Uzji4qKl0Q0USpDTr92JEMQobBXl9lYD0&dib_tag=se&keywords=LRS-350-24&qid=1780021690&s=industrial&sprefix=lrs-350-24%2Cindustrial%2C696&sr=1-1&th=1) | <img src="./Purchased_Parts/LRS-350-24.png" width="80"> |
+| Power Cord | US Standard AC Cable | 1 | $4.49 | [amazon](https://www.amazon.com/LIFEPOE-Power-3-3ft-Black-3-Prong/dp/B0FK4KPW2G/ref=sr_1_1?crid=2W5766PT8EOKA&dib=eyJ2IjoiMSJ9.7E5s-9-Zh-jJAdni-17Iyt1Mr3GJD6hMt9pfk-0S5YxZtknZik9OiePitwUom0pYUbePRpdqa0dCZtGUjluQDEJbSDePHCGvBV6bwQU7wfwd0Loo4WJJmH_2CM1KRKSPcxHXRH0i1i5yuy4g7fDxxn3nPGYU3aF00m5jiIkMfYFgOxH4yURjjZeTMZAIO9wiVQUsPrlM51UIgpPo2YYdCQVUsxjumSsTAm0Jpt2SsBEdT-QzXSIKpLSvQ6kGijXF-4ZevaxiShJdmwU8t2LobDLcalXEOl3lriZTGhjwxow.r0oBabUkGwewhvO3IKlBMULdhUSe6yNTsjfFUaBsjyU&dib_tag=se&keywords=US%2BStandard%2BAC%2BCable%3B%2B1.5m%2B-%2B3%2B*%2B1.5mm%C2%B2&nsdOptOutParam=true&qid=1780021862&s=industrial&sprefix=lrs-350-24%2Cindustrial%2C387&sr=1-1&th=1) | <img src="./Purchased_Parts/US Standard AC Cable.png" width="80"> |
+| Output Port | XT60E Fixed Female Connector; XT60E Female + Lug - 10cm; 4mm Lug Hole | 1 | $9.99 | [amazon](https://www.amazon.com/LINSYRC-XT60E-F-Connector-Battery-Quadcopter/dp/B0CQK1P1DP/ref=pd_sbs_d_sccl_1_2/133-3898271-3474923?pd_rd_w=FmCVA&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=03QM0MRVZA968N9X6X6E&pd_rd_wg=WOZ9q&pd_rd_r=6e0577d2-de73-4427-affd-a271808e1453&pd_rd_i=B0CQK1P1DP&psc=1) | <img src="./Purchased_Parts/XT60E Female to Copper Lug Pigtail.png" width="80"> |
+| Power AC Wiring | 1.5mm²; Red, Blue, Yellow x1 each(User must crimp terminals to the wire — pre-crimped leads not included.); 10CM | 3 | $0.99 | [aliexpress](https://www.aliexpress.com/item/1005008648016252.html?spm=a2g0o.productlist.main.2.15c9ZpluZpluHP&algo_pvid=09efee83-d80c-4ece-b588-3b1ef73279a3&algo_exp_id=09efee83-d80c-4ece-b588-3b1ef73279a3-1&pdp_ext_f=%7B%22order%22%3A%22230%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.58%210.99%21%21%2124.09%216.65%21%400b0b305117800339070873795e0f3d%2112000046086542230%21sea%21US%216593543849%21ABX%211%210%21n_tag%3A-29910%3Bd%3A518b3f9d%3Bm03_new_user%3A-29895%3BpisId%3A5000000207178484&curPageLogUid=74aJ9L7lm7hs&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008648016252%7C_p_origin_prod%3A&gatewayAdapt=4itemAdapt) | <img src="./Purchased_Parts/RV Grounding Wire Coil with Y-Terminal Lugs.png" width="80"> |
+| 3-in-1 IEC Inlet Socket | Quick-connect type with red switch (Dual Nuts) | 1 | $1.98 | [aliexpress](https://www.aliexpress.com/item/1005005962021242.html?spm=a2g0o.imagesearchproductlist.main.17.7db7cZZdcZZdCY&algo_pvid=270b0987-1973-41ad-a2b9-6fe008f9edb5&algo_exp_id=270b0987-1973-41ad-a2b9-6fe008f9edb5&pdp_ext_f=%7B%22order%22%3A%22346%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.31%211.98%21%21%2122.30%2113.35%21%400b0b305117800327806706342e118f%2112000035062406338%21sea%21US%216593543849%21ABX%211%210%21n_tag%3A-29910%3Bd%3A518b3f9d%3Bm03_new_user%3A-29895%3BpisId%3A5000000204886261&curPageLogUid=87JUDbPbch2i&utparam-url=scene%3Aimage_search%7Cquery_from%3Apc_web_image_search%7Cx_object_id%3A1005005962021242%7C_p_origin_prod%3A) | <img src="./Purchased_Parts/3-in-1 IEC Inlet Socket.png" width="80"> |
+| Countersunk Hex Socket Screw M4x10 | M4x10 | 4 | $0.37 | / | / |
+| Button Head Hex Socket Screw M4x6 | M4x6 | 2 | $0.36 | / | / |
+| Button Head Hex Socket Screw M3x8 | M3x8 | 2 | $0.32 | / | / |
+
+
+#### Printed Parts BOM
+
+| Name | Image | Qty | Notes |
+|:---|:---|:---:|:---|
+| [Front Cover](./3D_Printed_Parts/DM-power-Top%20Cover.STEP) | <img src="./3D_Printed_Parts/images/DM-power-Top Cover.png" width="80"> | 1 | PLA, 0.4mm Nozzle, 0.2mm Layer Height, 30% Infill |
+| [Rear Cover](./3D_Printed_Parts/DM-power-Bottom%20Cover.STEP) | <img src="./3D_Printed_Parts/images/DM-power-Bottom Cover.png" width="80"> | 1 | PLA, 0.4mm Nozzle, 0.2mm Layer Height, 30% Infill |
+| [Front Cover Slider](./3D_Printed_Parts/DM-power-Top%20Cover-Sliding%20Cover.STEP) | <img src="./3D_Printed_Parts/images/DM-power-Top Cover-Sliding Cover.png" width="80"> | 1 | PLA, 0.4mm Nozzle, 0.2mm Layer Height, 30% Infill |
+
+#### Power Supply Assembly
+
+The power supply assembly is divided into two main sections: the Front Cover and the Rear Cover.
+
+##### 1. Front Cover Assembly
+
+| Step | Operation Instructions | Image | Notes |
+|:---:|---|---|---|
+| 1-1 | Prepare all required parts and printed components for the front cover. | <img src="./Assembly_Steps/powerstep_images/1-1.jpg" width="80"> | Check that all parts are complete. |
+| 1-2 | Explanation of wiring sequence. Assemble strictly according to the diagram. | <img src="./Assembly_Steps/powerstep_images/1-2(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-2(2).png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-2(3).png" width="80"> | Follow the wiring order strictly. |
+| 1-3 | Install the XT60 connector. | <img src="./Assembly_Steps/powerstep_images/1-3(1).jpg" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-3(2).jpg" width="80"> | Use the included screws and nuts to secure. |
+| 1-4 | Install the 3-in-1 IEC inlet socket. | <img src="./Assembly_Steps/powerstep_images/1-4(1).jpg" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-4(2).jpg" width="80"> | Use M3×10 Button Head Hex Socket Screws. |
+| 1-5 | Internal wiring of the front cover. | <img src="./Assembly_Steps/powerstep_images/1-5(1).jpg" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-5(2).jpg" width="80"> | Double-check connections against the wiring diagram. |
+| 1-6 | Secure the front cover to the sides of the power supply. | <img src="./Assembly_Steps/powerstep_images/1-6(1).jpg" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-6(2).jpg" width="80"> | M4×12 Countersunk Hex Socket Screws ×2. |
+| 1-7 | Install the sliding cover. | <img src="./Assembly_Steps/powerstep_images/1-7(1).jpg" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-7(2).jpg" width="80"> | Slide in from the bottom of the power supply. |
+| 1-8 | Secure the sliding cover. | <img src="./Assembly_Steps/powerstep_images/1-8.jpg" width="80"> | M4×8 Button Head Hex Socket Screws ×2. |
+
+##### 2. Rear Cover Assembly
+
+| Step | Operation Instructions | Image | Notes |
+|:---:|---|---|---|
+| 2-1 | Prepare all required parts and printed components for the rear cover. | <img src="./Assembly_Steps/powerstep_images/2-1.jpg" width="80"> | Check accessory integrity. |
+| 2-2 | Assemble the rear cover with the power supply. | <img src="./Assembly_Steps/powerstep_images/2-2.jpg" width="80"> | Align positions carefully. |
+| 2-3 | Secure the rear cover to the sides of the power supply. | <img src="./Assembly_Steps/powerstep_images/2-3(1).jpg" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/2-3(2).jpg" width="80"> | M4×12 Countersunk Hex Socket Screws ×2. |
+
+##### 3. Final Assembly
+
+| Step | Operation Instructions | Image | Notes |
+|:---:|---|---|---|
+| 1 | Power supply assembly complete. | <img src="./Assembly_Steps/powerstep_images/3.jpg" width="80"> | Check that all screws are tightened securely. |
   ---
