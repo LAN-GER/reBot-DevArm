@@ -114,6 +114,7 @@ We are committed to continuously maintaining and adapting to mainstream robot de
 | **ROS2 (Humble)** | [@danieldoradotalaveron-rb](https://github.com/danieldoradotalaveron-rb) | **Passive diagnostics monitor** (`rebotarm_monitor_ros2`): `/diagnostics` overlay for `rqt_robot_monitor`; serial/CAN-aware aggregator. | [rebotarm_monitor_ros2](https://github.com/danieldoradotalaveron-rb/rebotarm_monitor_ros2) |
 | **ROS2 (Humble)** | [@danieldoradotalaveron-rb](https://github.com/danieldoradotalaveron-rb) | **Safe park & shutdown**: capture rest pose on connect; slow return on shutdown or `/rebotarm/park` instead of dropping from q=0. | [reBotArmController_ROS2](https://github.com/danieldoradotalaveron-rb/reBotArmController_ROS2) |
 | **ROS2 (Humble)** | [@danieldoradotalaveron-rb](https://github.com/danieldoradotalaveron-rb) | **Gravity compensation (smooth stop)**: MIT ramp-out when exiting gravity compensation; prevents audible clack and abrupt jerk/instability before pos_vel handoff. | [reBotArmController_ROS2](https://github.com/danieldoradotalaveron-rb/reBotArmController_ROS2) |
+| **ROS2 (Humble)** | [@danieldoradotalaveron-rb](https://github.com/danieldoradotalaveron-rb) | **Gamepad teleop with IK**: gamepad control with inverse kinematics for end-effector motion; live robot state visualization in RViz. | [reBotArmController_ROS2](https://github.com/danieldoradotalaveron-rb/reBotArmController_ROS2) |
 
 ### reBot Arm B601 RS
 
