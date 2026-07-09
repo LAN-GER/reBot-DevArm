@@ -109,7 +109,7 @@ reBot机械臂RS版本在[矽递科技电商平台](https://detail.tmall.com/ite
 | **ROS2 集成** | ✅ 完成 | ROS2集成机械臂控制器、支持机械臂运动学、轨迹规划及重力补偿功能 |[reBot Arm B601-DM ROS2使用教程](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_ros2_integration/)|
 | **Pinocchio 适配** | ✅ 完成 | 适配 Pinocchio框架、实现机械臂正逆运动学及动力学重力补偿功能 |[reBot Arm B601-DM 的 Pinocchio 与 MeshCat 入门指南](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_pinocchio_meshcat/) 以及 [Github 控制代码](https://github.com/vectorBH6/reBotArm_control_py)|
 | **Isaac Sim 仿真** | 🚧 进行中 | 导入USD模型并实现仿真遥操作 | [由于添加额外课程延迟： 2026.06.20]|
-| **LeRobot 适配** | 🚧 进行中 | 适配 Hugging Face LeRobot 训练框架 | [reBot Arm B601-DM Lerobot使用教程](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_lerobot/)|
+| **LeRobot 适配** |  ✅ 完成  | 适配 Hugging Face LeRobot 训练框架 | [reBot Arm B601-DM Lerobot使用教程](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_lerobot/)|
 | **深度相机集成** | ✅ 完成 | 基于 YOLO 与深度相机的视觉夹取演示 | [reBot Arm B601-DM 视觉夹取 Demo](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_grasping_demo/) |
 | **逐步更新最新算法** | ⏳ 计划中 | 逐步更新主流算法 | 持续进行 |
 | **推出系列完全免费课程** | ⏳ 计划中 | 逐步更新主流算法 | 持续进行 |
@@ -121,10 +121,10 @@ reBot机械臂RS版本在[矽递科技电商平台](https://detail.tmall.com/ite
 | :--- | :---: | :--- | :--- |
 | **电机基本使用** | ✅ 完成 | 基础运动控制与API封装 | [灵足时代](https://wiki.seeedstudio.com/cn/robstride_control/)|
 | **快速上手** | ✅ 完成 | 机械臂快速上手教程 | [Wiki](https://wiki.seeedstudio.com/cn/rebot_b601_rs_getting_started/)|
-| **新版本STEP 3D结构件及BOM开源** | 🚧 进行中 | 新版本所有零件的STEP格式、零部件BOM、及所有加工件参考价格 | 预计[2026.06] |
-| **组装视频** | 🚧 进行中 | 超详细的组装步骤及视频 |  [预计 2026.06] |
+| **新版本STEP 3D结构件及BOM开源** | ✅ 完成 | 新版本所有零件的STEP格式、零部件BOM、及所有加工件参考价格 | [reBot Arm B601-RS BOM](./hardware/reBot_B601_RS/README_zh.md)  |
+| **组装视频** |  ✅ 完成 | 超详细的组装步骤及视频 |  [Wiki](https://wiki.seeedstudio.com/cn/rebot_b601_rs_getting_started/) |
 | **ROS2 (Humble)** |✅ 完成  | ROS2集成机械臂控制器、支持机械臂运动学、轨迹规划、重力补偿功能以及MoveIt2 |[reBot Arm B601-RS ROS2使用教程](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_ros2_integration/)|
-| **LeRobot 适配** | ⏳ 计划中 | 适配 Hugging Face LeRobot 训练框架 | [reBot Arm B601-RS入门Lerobot](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_lerobot/)|
+| **LeRobot 适配** |  ✅ 完成 | 适配 Hugging Face LeRobot 训练框架 | [reBot Arm B601-RS入门Lerobot](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_lerobot/)|
 | **Pinocchio 适配** | ✅ 完成 | 适配 Pinocchio框架、实现机械臂正逆运动学及动力学重力补偿功能 |[reBot Arm B601-DM 的 Pinocchio 与 MeshCat 入门指南](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_pinocchio_meshcat/) 以及 [Github 控制代码](https://github.com/vectorBH6/reBotArm_control_py)|
 | **深度相机集成** | ✅ 完成 | 基于 YOLO 与深度相机的视觉夹取演示 | [reBot Arm B601-RS 视觉夹取 Demo](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_grasping_demo/) |
 | **Isaac Sim 仿真** | ⏳ 计划中 | 导入USD模型并实现仿真遥操作 | [源代码](https://github.com/Seeed-Projects/reBot-Isaacsim)|

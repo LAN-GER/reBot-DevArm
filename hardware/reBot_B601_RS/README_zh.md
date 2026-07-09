@@ -1,65 +1,227 @@
-正在路上
+下面是中文翻译版本：
+
+# 🤖 reBot DevArm 开源硬件规格说明
+
+<p align="center">
+  <img src="../../media/RS5_56.png" alt="reBot-DevArm Banner">
+</p>
+<p align="center">
+  <strong>
+    <a href="./readme_zh.md">简体中文</a> &nbsp;|&nbsp;
+    <a href="./readme.md">English</a> &nbsp;|&nbsp;
+    <a href="./readme_jp.md">日本語</a>&nbsp;|&nbsp;
+    <a href="./readme_fr.md">français</a>&nbsp;|&nbsp;
+    <a href="./readme_es.md">Español</a>
+  </strong>
+</p>
+
+| 日期         | 版本   | 文件名                              | 更新记录 |
+| ---------- | ---- | -------------------------------- | ---- |
+| 2026-07-09 | v1.0 | reBot_B601_RS_v1.0_20260625.step | 首次上传 |
+
+本 BOM 适用于 reBot Arm B601 RS 机械臂，该版本使用 ROBOSTRIDE 系列电机。另一个版本 reBot Arm B601 DM 使用 DAMIAO 电机；[请在此查看 BOM](../reBot_B601_DM/README.md)。
+
+# 📦 文件结构
+
+* `3D_Printed_Parts/`：所有 3D 打印部件的 STEP 文件。
+* `Metal_Parts/`：所有 CNC 加工金属部件的 STEP 文件。
+* `Purchased_Parts/`：所有采购标准件的 STEP 文件。
+* `reBot_B601_RS_v1.0_20260625.step`：完整机械臂装配文件。
+
+# 🛒[获取所有零件](https://www.seeedstudio.com/reBot-Arm-B601-RS-Disassembly-Kit-Version-with-Power-Supply-Bundle.html)
+
+* 我们提供五种套件选项：
+
+  * **reBot-Arm-B601-RS-Disassembly-Kit**
+  * **reBot-Arm-B601-RS-Assembly-Version**
+
+# 📊 物料清单（BOM）
+
+> [!WARNING]
+> 声明：本次公开的 BOM **并不代表** Seeed 最终出货版本。本开源 v1.0 版本面向开发者以较低成本复现为目标，因此简化了一些非必要细节。
+>
+> Seeed 最终量产版本将包含用于防呆的金属激光雕刻；部分 3D 打印件会替换为金属件以提升耐用性；配合间隙和加工公差会根据工厂批量生产差异进行调整，以平衡精度和成本；同时还会增加定制线束，例如编织网保护等额外成本项。不过，机械结构本身保持一致。
+
+---
+
+## 🖨️ 3D 打印部件
+
+| 部件描述       | 图片                                                                      | 文件名                  | 材料              | 数量 | 备注                                        |
+| ---------- | ----------------------------------------------------------------------- | -------------------- | --------------- | -- | ----------------------------------------- |
+| 机械臂底座平台    | <img src="./3D_Printed_Parts/images/02-BASE.png" width="80">            | 1-BASE-PLATE.step    | Bambu ABS 黑色    | 1  | 0.4 喷嘴，0.2 层高，30% 填充                      |
+| 机械臂底座连杆    | <img src="./3D_Printed_Parts/images/02-BASE_02.png" width="80">         | 1-RSM1-STATOR-1.step | Bambu ABS 黑色    | 1  | 0.4 喷嘴，0.2 层高，30% 填充                      |
+| 上臂左侧填充件    | <img src="./3D_Printed_Parts/images/02-DOWN_TRIM_1.png" width="80">     | 1-DOWN-DL.step       | Bambu PLA 黑色与绿色 | 1  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 上臂右侧填充件    | <img src="./3D_Printed_Parts/images/02-DOWN_TRIM_2.png" width="80">     | 1-DOWN-DR.step       | Bambu PLA 黑色与绿色 | 1  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 上臂与下臂中间填充件 | <img src="./3D_Printed_Parts/images/02-DOWN-FILLING.png" width="80">    | 1-SPACE-UP.step      | Bambu ABS 黑色    | 2  | 0.4 喷嘴，0.2 层高，30% 填充                      |
+| 机械臂提手      | <img src="./3D_Printed_Parts/images/02-HANDLE.png" width="80">          | 1-HANDLE.step        | Bambu ABS 黑色    | 1  | 0.4 喷嘴，0.2 层高，30% 填充                      |
+| 上臂与下臂盖板    | <img src="./3D_Printed_Parts/images/02-DOWN-COVER.png" width="80">      | 1-COVER.step         | Bambu PLA 绿色    | 2  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 下臂左侧填充件    | <img src="./3D_Printed_Parts/images/02-UP-TRIM_1.png" width="80">       | 1-UP-DL.step         | Bambu PLA 黑色与绿色 | 1  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 下臂右侧填充件    | <img src="./3D_Printed_Parts/images/02-UP-TRIM_2.png" width="80">       | 1-UP-DR.step         | Bambu PLA 黑色与绿色 | 1  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 夹爪水平限位件    | <img src="./3D_Printed_Parts/images/02-SPACER.png" width="80">          | 1-STOPPER-1.step     | Bambu PLA 绿色    | 1  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 夹爪滑轨支撑支架   | <img src="./3D_Printed_Parts/images/02-3D-RAIL-BRACKET.png" width="80"> | 1-RAIL-BASE-2.step   | Bambu PLA 绿色    | 1  | 0.4 喷嘴，0.2 层高，15% 填充                      |
+| 夹爪手指       | <img src="./3D_Printed_Parts/images/02-CLIP_1.png" width="80">          | 1-CLIP.step          | Bambu ABS 黑色    | 2  | 0.4 喷嘴，0.2 层高，45% 填充。建议从夹爪侧面方向打印，以提升结构强度。 |
+
+长时间拖拽线束 1 可能会磨损电机连接器，并导致电气接触不良。打印下表中的部件可以降低该风险。
+
+| 部件描述         | 图片                                                                                 | 文件名                                 | 材料               | 数量 | 备注                         |
+| ------------ | ---------------------------------------------------------------------------------- | ----------------------------------- | ---------------- | -- | -------------------------- |
+| 电机 1 两侧线束固定夹 | <img src="./3D_Printed_Parts/images/RS_Motor1_wiring_harness_clip.jpg" width="80"> | `RS_Motor1_wiring_harness_clip.stp` | Bambu Lab 黑色 ABS | 2  | 0.4 mm 喷嘴，0.2 mm 层高，30% 填充 |
+
+### 🧩 打印建议
+
+* 层高：0.2 mm
+* 喷嘴：0.4 mm
+* 支撑：根据需要添加
+* 材料：高温和承重部件建议使用 ABS，填充率 30–80%；也可以使用尼龙或碳纤维增强材料。外观件建议使用 PLA，填充率 15%。
+* 承重部件推荐材料：
+
+---
+
+## 🔩 CNC 加工金属部件
+
+> [!WARNING]
+> 部分可由 3D 打印替代的部件已在备注中说明，这可以显著降低成本。
+
+| 部件描述         | 图片                                                                         | 文件名                   | 材料       | 数量 | 加工方式 | 备注                                                                                                        |
+| ------------ | -------------------------------------------------------------------------- | --------------------- | -------- | -- | ---- | --------------------------------------------------------------------------------------------------------- |
+| 电机 1 轴承安装座   | <img src="./Metal_Parts/images/02_Base_Reinforcement_Part.png" width="80"> | 2-RSM1-ROTOR-1.step   | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link1 左侧金属件  | <img src="./Metal_Parts/images/Link1_Left_Metal.png" width="80">           | 2-RSM-ROTOR-L.step    | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link1 右侧金属件  | <img src="./Metal_Parts/images/Link1_Right_Metal.png" width="80">          | 2-RSM-ROTOR-R.step    | 5052 铝合金 | 4  | CNC  |                                                                                                           |
+| Link1 底部金属件  | <img src="./Metal_Parts/images/Link1_Bottom_Metal.png" width="80">         | 2-RSM1-ROTOR-1.step   | 5052 铝合金 | 3  | CNC  |                                                                                                           |
+| 关节金属圆盘       | <img src="./Metal_Parts/images/2-CD.png" width="80">                       | 2-CD.step             | 5052 铝合金 | 3  | CNC  | 用于遮挡螺丝                                                                                                    |
+| RS06 前侧延长件   | <img src="./Metal_Parts/images/RS06_Front_Extesnion.png" width="80">       | 2-RSM2-STATOR-1.step  | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| RS06 后侧延长件   | <img src="./Metal_Parts/images/RS06_Back_Extesnion.png" width="80">        | 2-RSM2-STATOR-2.step  | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link2 左右金属件  | <img src="./Metal_Parts/images/2-LINK-2_3.png" width="80">                 | 2-LINK-2_3.step       | 5052 铝合金 | 2  | CNC  |                                                                                                           |
+| 上限位 L        | <img src="./Metal_Parts/images/Upper_limit_L.png" width="80">              | 2-Upper-Limit_L.stp   | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 上限位 R        | <img src="./Metal_Parts/images/Upper_limit_R.png" width="80">              | 2-Upper-Limit_R.stp   | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 下臂与上臂连接件 L   | <img src="./Metal_Parts/images/2-RSM3-ROTATOR-L.png" width="80">           | 2-RSM3-ROTATOR-L.step | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 下臂与上臂连接件 R   | <img src="./Metal_Parts/images/2-RSM3-ROTATOR-R.png" width="80">           | 2-RSM3-ROTATOR-R.step | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link3 左侧金属件  | <img src="./Metal_Parts/images/Link3-Left-Metal.png" width="80">           | 2-LINK-3_4-L.step     | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link3 右侧金属件  | <img src="./Metal_Parts/images/Link3-Right-Metal.png" width="80">          | 2-LINK-3_4-R.step     | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link3 左右连接件  | <img src="./Metal_Parts/images/Link3-Right-Left-Link.png" width="80">      | 2-SPACE-UP-2.step     | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 电机 4–7 线缆固定件 | <img src="./Metal_Parts/images/Motor4_Cable_Fixing.png" width="80">        | 1-O-CLIP.step         | 5052 铝合金 | 4  | CNC  | Seeed Studio 出货版本中，该部件会作为一个与其他部件集成的 CNC 金属件生产，因此制造成本较高。如果自行复现硬件，可以使用 ABS 材料 3D 打印该部件，并在红色箭头标记的位置安装 M2 螺母。 |
+| Link4-5_L    | <img src="./Metal_Parts/images/Link4-5_L.png" width="80">                  | 2-LINK-4_5-L.step     | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link4-5_R    | <img src="./Metal_Parts/images/Link4-5_R.png" width="80">                  | 2-LINK-4_5-R.step     | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| Link5        | <img src="./Metal_Parts/images/Link5.png" width="80">                      | 2-RSM5-STATOR.step    | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 手腕连接件 A      | <img src="./Metal_Parts/images/Wrist_Connector_A.png" width="80">          | 2-RSM6-RORATOR-1.step | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 手腕连接件 B      | <img src="./Metal_Parts/images/Wrist_Connector_B.png" width="80">          | 2-RSM6-RORATOR-2.step | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 夹爪连接件 A      | <img src="./Metal_Parts/images/02_Gripper_Connector_A.png" width="80">     | 2-M6-ROTOR.step       | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 夹爪连接件 B      | <img src="./Metal_Parts/images/02_Gripper_Connector_B.png" width="80">     | 2-M7-STATOR.step      | 5052 铝合金 | 1  | CNC  |                                                                                                           |
+| 夹爪滑块金属支架     | <img src="./Metal_Parts/images/02_Slider_Bracket.png" width="80">          | 2-RAIL-BASE-1.step    | 5052 铝合金 | 1  | CNC  | 可使用高填充率 ABS 进行 3D 打印，但不建议长期使用                                                                             |
+| 滑块到夹爪延长件     | <img src="./Metal_Parts/images/02_Slider_Extension.png" width="80">        | 2-SLIDER-FIX.step     | 5052 铝合金 | 2  | CNC  |                                                                                                           |
+| 齿条           | <img src="./Metal_Parts/images/Rack.png" width="80">                       | 2-RACK-1M.step        | 5052 铝合金 | 2  | CNC  |                                                                                                           |
+
+### 🧩 加工规格
+
+* 关键尺寸公差：±0.02 mm，GB/T1840-M
+* 表面处理：阳极氧化 / 喷砂
+* 推荐配合方式：H7 / 过盈配合
+
+---
+
+## 🛒 采购件（标准件）
+
+> [!WARNING]
+> 由于用户需要自行组装并拧紧螺丝，因此本 BOM 选择了标准内六角螺丝。长时间运行后，螺丝可能会松动，从而影响机械臂精度。因此，建议额外购买热熔胶，用于对各关节处螺丝进行螺纹锁固。
+>
+> 如果你有电钻或类似工具，也可以选择购买弹簧垫圈或防松螺丝。不过，使用电动螺丝刀时 **务必使用最低扭矩档位**，避免滑牙，否则可能造成不可逆损坏。
+
+| 名称             | 规格 / 型号               | 数量  | 参考价格                                                 | 备注                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------------- | --------------------- | --- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 无刷电机           | RobStride RS00        | 4   | 125 美元/个                                             | [SeeedStudio](https://www.seeedstudio.com/Robostride-00-Actuator-p-6664.html)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 无刷电机           | RobStride RS06        | 3   | 210 美元/个                                             | [SeeedStudio](https://www.seeedstudio.com/Robostride-06-Actuator-p-6668.html)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| CAN-USB 驱动板    |                       | 1   | 15 美元/个                                              | [SeeedStudio](https://www.amazon.com/Xiusiyt-Converter-Preloaded-PCAN-Firmware/dp/B0GBW7RTXD/ref=sr_1_2?crid=UNQHGEOCWEW4&dib=eyJ2IjoiMSJ9.BLjBmjTT73o_0hvb0ehHo3M2x1HYsciLqAZy-tlc_uo2eQn5T3jiElnghuDt__xr44HPQx8PITdTIyUG2aWDLwwAktkkejQPPmBc1dzKJXtZrK85hqgBHwCYeY-d8flD_XqsGw94kntXSOp-YSFCBZs-mBO2zVKZuQ6r_JoTjpZHNdDgWz9kMXtI7InFWPrKfV43IkBVJ6gssLjPd9ewBZyYVLORxBKVA6loljry6s1oEOVNtS3ChuU1bMmFcJNrZYlIJp0hqQkzS8kUxo3YIUQsO0GsdaxgyAIP2dpPNdw.O_Y2ZhdC1FWJ-A2gPo5jJHdw92tFf5LuHE9-oElawpA&dib_tag=se&keywords=Pcan&qid=1783575578&sprefix=pcan%2Caps%2C631&sr=8-2)                                                 |
+| XT30 2+2 电源分配板 |                       | 1   | 15 美元/个                                              | [SeeedStudio](https://www.seeedstudio.com/XT30-2-2-Power-Separation-Board-p-6707.html)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 轴承             | 6803ZZ                | 3   | 13 美元/个                                              | [Amazon](https://www.amazon.com/uxcell-17x26x5mm-Shielded-Precision-Lubricated/dp/B0D54JSWBZ/ref=sr_1_1?crid=17L94NDI1JCC0&dib=eyJ2IjoiMSJ9.xH_s9Ui7VlS40EZvr-HektqY3VOJsM-VjyE6JaJEScIWuFZ2UYSM7G8j1fC0HSmbb7YlA0YfUxxCkUzBptwrEEdEHsP94TGplNpPAWwhnH8b76HapXR_uHbr1vu3xe0AYSYP30Quk9LMQrGjUh84bXL82z2mORuiri0VHqo5DmSguK0cHubmVaXtbR_eJ43Z7L2nNqWfgltqzmHsYm7DQvrnIBg9UMlD1o9559nCSKA.E_N7CDPQhShckT-1vHDhYvNgiqRKusa12d43hqATQ5A&dib_tag=se&keywords=6803ZZ&qid=1774771801&sprefix=6803zz%2Caps%2C397&sr=8-1)                                                                                                            |
+| 轴承             | AXK5578               | 1   | 12 美元/个                                              | [Amazon](https://www.amazon.com/PZRT-AXK5578-Thrust-Bearings-Washers/dp/B0B3M3RZGW/ref=sr_1_1?dib=eyJ2IjoiMSJ9.TatYkzOvpYAJ5K23C7Qr9JKJsPhpJE8p1L3k5_1YqQ7ozSLNgOBEeG9pTYz-WXOWiHkbJq_zZR4FxNHAJZ4euyfOGXkOKycOyN0pUD0_WkJia0PekbRy0sYvyQbE7KZByR-40WiPSPuUcysFewSngPoDGQZzESFOUz__V9ViGCIQAPfdUe2OxVpvtbKZYCQsrSDm8b8okR25bavCvpDbBfPh0He2PEBEpl55L8RtYKmlv62XJyfYT1o29A7wO5n8-g3hpJOrKmmWCybdEEWSmquAT1cjvsPTJDaT_TICsso.6xR5pEGJgTR-u_NOyXxi8VTphoLytGd8zugy1-xu-fE&dib_tag=se&keywords=AXK5578&qid=1774771826&sr=8-1&th=1)                                                                                              |
+| 直线导轨           | MGN9-170mm            | 1   | 23 美元/个                                              | [Amazon](https://www.amazon.com/uxcell-Sliding-Carriage-Bearing-Printers/dp/B0D54L45WM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.qNphfY5r4UgLDHslIliMBhC45qBKTl37lJseObJSBp79RJ4VJnAH-lYAMo-rwPiu_uqWmkN7ms4kfAokYvod1seWb5-z2_kVgVuzrCXdiRycNXjrdv3qi5Awuno0_vEqjT4WJ569tAmqm_Rujrdxss7VfpLizFxq6-R8DucuvqZ0M0Y4go9PzRFEFPu4csskz7-UkM1CUidHoKmrT-I7R1Ta0dijj2SYlR_zW0si75k.nRJTebbqw-bFyzkdU8MztHnGdt9qwnHr_gIqa-MDxEQ&dib_tag=se&keywords=MGN9&qid=1774771864&sr=8-1)                                                                                                                                                                  |
+| 滑块             | MGN9                  | 2   | 10 美元/个                                              | [Amazon](https://www.amazon.com/uxcell-Bearing-Sliding-Carriage-Anti-Fall/dp/B0D9QBQDKB/ref=sr_1_8?dib=eyJ2IjoiMSJ9.qNphfY5r4UgLDHslIliMBhC45qBKTl37lJseObJSBp79RJ4VJnAH-lYAMo-rwPiu_uqWmkN7ms4kfAokYvod1seWb5-z2_kVgVuzrCXdiRycNXjrdv3qi5Awuno0_vEqjT4WJ569tAmqm_Rujrdxss7VfpLizFxq6-R8DucuvqZ0M0Y4go9PzRFEFPu4csskz7-UkM1CUidHoKmrT-I7R1Ta0dijj2SYlR_zW0si75k.nRJTebbqw-bFyzkdU8MztHnGdt9qwnHr_gIqa-MDxEQ&dib_tag=se&keywords=MGN9&qid=1774771864&sr=8-8)                                                                                                                                                                 |
+| 齿轮             | 模数 1，带轮毂，16 齿，6 mm 孔径 | 1   | 44 美元/个                                              | [Amazon](https://www.amazon.com/Module-15-Teeth-Finished-Perforation/dp/B0GDSR1LKM/ref=sr_1_1?crid=2EN1YHE8TEC58&dib=eyJ2IjoiMSJ9.54N73iSlush8K1a_teRazjBGZaQnbFM4MLysEbIq430CEYcVs0slm8KhpC_JlmjyVMocPA3vLANjERYZWweRag36NhX2GGldVTpd31kAWW4.ws8l0qBABmSVrUGX4g2o3sBbUgOnNhl3Nx_Nt-d1HT8&dib_tag=se&keywords=1%2Bmodule16%2Bteeth&qid=1774772022&sprefix=1%2BModule16%2Bteeth%2Caps%2C403&sr=8-1&th=1)                                                                                                                                                                                                                     |
+| 硅胶垫            | 30x9x2mm              | 1   | 10 美元                                                | [Amazon](https://www.amazon.com/Self-Adhesive-Anti-Sliding-Anti-Scratch-Protectors-Appliances/dp/B0F9KVYXFZ/ref=sr_1_3?crid=LVY2LLBFQT6J&dib=eyJ2IjoiMSJ9.4qjOEtjEph1QxS_kJF2vIYqvD_8Lzt4GZ2rrywWbrAhniBvp_8YrEsVNcCPQofO4jVqBxFE8Yplyg2XXgAXlUZwzqE-Gp8MYcaPmphL8Mc1n-ARSCNaTq5gc7ZIWsS6u-kR0G2BzIlBo6NF88KvASjKYJfTHpPXHfNCPVw13P-PseVbUZwlVAO9zMHa3a84gHRd-I-mGB8SCmek9mXjN-c-bFxKvJXlz4C5YBBdt9cH3QkSmLgiLZ_iD4K1mh-MwI5WuVOXr5ZOwJ0bVpmHpc_vpbKLr7CkVack3nsC-TM0.40ujhwS5ConOfA8io_c5hcdos70HOKjMFqqKLKgNwI8&dib_tag=se&keywords=silicone%2Bsticker&qid=1774772199&sprefix=silicone%2Bsticker%2Caps%2C380&sr=8-3&th=1) |
+| 螺丝             | KM3*7mm 螺丝            | 80+ |                                                      | [Amazon](https://www.amazon.com/Uxcell-a16011300ux0872-M3x12mm-Carbon-Countersunk/dp/B01E6EIC2S/ref=sr_1_1?crid=2VJKS347LBDWD&dib=eyJ2IjoiMSJ9.eXF2FHahloRY0Kq8sM_EkJUm7ipUgMoVSuTAPjt3ZnAINqLrPQz9A55XDHfe00KPGG3Sr1IJJQloiw7IFwewoPsbdnKBZH5JjT4Ijy_bUXju1IvrHWP4nWeYW1o29jlbHBKEa3fPl8-JzEHr9RPKe5h_Dr1vN6VFMUfszTDEzufQrIi22AsKCMTep5n0-IR7AIc7Fai93nmr4ax8USKGOD_3yu4ri0p8ClPTZzfwmDJvnTpE9J9PNN8uA-wDz72RADQu2VLry_mvb5CA1JV0vHP49Qsy-96MKXo-j3vT8m0.DWiT1Loy7A-MeTveRzxU47S6WCKwnW6MVnmpF256j-s&dib_tag=se&keywords=screw+KM3*12&qid=1776330785&s=industrial&sprefix=screw+km3+%2Cindustrial%2C984&sr=1-1)           |
+| 螺丝             | KM3*16mm 螺丝           | 8+  |                                                      | [Amazon](https://www.amazon.com/Uxcell-a16011300ux0872-M3x12mm-Carbon-Countersunk/dp/B01E6EIC2S/ref=sr_1_1?crid=2VJKS347LBDWD&dib=eyJ2IjoiMSJ9.eXF2FHahloRY0Kq8sM_EkJUm7ipUgMoVSuTAPjt3ZnAINqLrPQz9A55XDHfe00KPGG3Sr1IJJQloiw7IFwewoPsbdnKBZH5JjT4Ijy_bUXju1IvrHWP4nWeYW1o29jlbHBKEa3fPl8-JzEHr9RPKe5h_Dr1vN6VFMUfszTDEzufQrIi22AsKCMTep5n0-IR7AIc7Fai93nmr4ax8USKGOD_3yu4ri0p8ClPTZzfwmDJvnTpE9J9PNN8uA-wDz72RADQu2VLry_mvb5CA1JV0vHP49Qsy-96MKXo-j3vT8m0.DWiT1Loy7A-MeTveRzxU47S6WCKwnW6MVnmpF256j-s&dib_tag=se&keywords=screw+KM3*12&qid=1776330785&s=industrial&sprefix=screw+km3+%2Cindustrial%2C984&sr=1-1)           |
+| 螺丝             | KA3*12mm              | 48+ |                                                      | [Amazon](https://www.amazon.com/uxcell-Phillips-Tapping-Screws-Silver/dp/B01MXSS95N/ref=sr_1_3?crid=2RJ5ZBG0M4EX5&dib=eyJ2IjoiMSJ9.v9AtN0DrK0YdOT84Puh29n1VDClJz4OwvslbH610w0_xJIkuVFk81UxgSw_lSRbHugpqkja4rz-elY-DHbh0KN4GCFH2MlZhRFjXVE1vlaChALTqgr9jxatNPvPTf8SzdxFoEMEPm3jwCnC8vqLq5xL-Wr414hMsTbVYxv_ZVmEbMV-8YYXhLWiOz9EivU2C8jWw0RFSwVtUxqhj7qgBBYV5QbJRNr1XdWmQsICMHTHy35DeIcLjyKtXOb0gEwDNyqqmdvS5LfJJaLQchjLpW1jondo5xapQVw8gWJ4yYjk.oXwiRL9W52Tlu7tMi7tT9i7g-CBYfw_AAT1LURe2Q7k&dib_tag=se&keywords=screw+ka3*12&qid=1776331569&s=industrial&sprefix=screw+ka3+%2Cindustrial%2C466&sr=1-3)                       |
+| 螺丝             | HM3-8mm 螺丝            | 60+ |                                                      | [Amazon](https://www.amazon.com/BNUOK-120pcs-Stainless-Threads-Spanner/dp/B0DJQG5YLF/ref=sr_1_4?crid=3J1D711FNBYR9&dib=eyJ2IjoiMSJ9.wo20uXEJsuYS5OBVpnH9TILDd6HtQrJUlEvvYFPE5VV6bozIiRlWwmDaoYnp345KjXwRyxbEgEaRD8gVD2vVhPXg3M266n3H8t9cWN518aR4c5WkFUkqLIqLwdGYBllKcQQ8agsrZYgSVFp9G8LJR4l9oAj8Yx4QN8MReo2k23RVk-lkWeJk1azXD88GFTmd17aiXz6fwOE45Krj4VRiy1oskx8QvMprmJXtH8KowAJo-pWdBtePCCIUUa8oLR78hi17yW_OGJattIwdAziX9RizLI-EMh3hku42WJWnb3g.lZYqsYfJunSoEUPNT04E1sFhPiudREmrI0919PaPBYI&dib_tag=se&keywords=screw%2BHM3-12mm&qid=1776330531&s=industrial&sprefix=screw%2Bhm3-12mm%2Cindustrial%2C475&sr=1-4&th=1)       |
+| 螺丝             | HM3-30mm 螺丝           | 16+ |                                                      | [Amazon](https://www.amazon.com/BNUOK-120pcs-Stainless-Threads-Spanner/dp/B0DJQFGRPQ/ref=sr_1_4?crid=3J1D711FNBYR9&dib=eyJ2IjoiMSJ9.wo20uXEJsuYS5OBVpnH9TILDd6HtQrJUlEvvYFPE5VV6bozIiRlWwmDaoYnp345KjXwRyxbEgEaRD8gVD2vVhPXg3M266n3H8t9cWN518aR4c5WkFUkqLIqLwdGYBllKcQQ8agsrZYgSVFp9G8LJR4l9oAj8Yx4QN8MReo2k23RVk-lkWeJk1azXD88GFTmd17aiXz6fwOE45Krj4VRiy1oskx8QvMprmJXtH8KowAJo-pWdBtePCCIUUa8oLR78hi17yW_OGJattIwdAziX9RizLI-EMh3hku42WJWnb3g.lZYqsYfJunSoEUPNT04E1sFhPiudREmrI0919PaPBYI&dib_tag=se&keywords=screw%2BHM3-12mm&qid=1776330531&s=industrial&sprefix=screw%2Bhm3-12mm%2Cindustrial%2C475&sr=1-4&th=1)       |
+| 螺丝             | HM4-8mm 紧定螺丝          | 6+  |                                                      | [Amazon](https://www.amazon.com/iexcell-Partially-Threaded-Thread-Socket/dp/B0DR1NX178/ref=sr_1_1?crid=35DT1MLQCOR9C&dib=eyJ2IjoiMSJ9.RlFuoSyG6Yoi2cmVkd0sQ47UpPY4y8uvofyrje4Ha76Dj6dcpknwvFT7DGc5jFqxw5Zd5g4SV-yre7xcMb3WB7MbBowQO3ZzvCgpYWcJ2xzphgz9gx0SNIr_ggqvFcAmxkNuMMVf0p9vPY-jJ2j9cbIk8IwMHlTo6kkuBINPotouNNyElpiy9qHhllwajmKY5v5uDIzJKNJvmhpUtJsd5IS7TB9VaRPkzsDbMDfR4pvs4JgNbU1Zmcu4Ex9fYcRHrOGjAZbbvNxo1r_N5MBKWbxbtZEDDKP_8Oyhgakhhnc.MTLa-_9PBksy6Qge1YqQmlejVfLKkuxB9gT-ZnB9ek0&dib_tag=se&keywords=screw+HM4-75&qid=1776330730&s=industrial&sprefix=screw+m4-75%2Cindustrial%2C401&sr=1-1)                   |
+| 螺丝             | HM4-16mm 紧定螺丝         | 18+ |                                                      | [Amazon](https://www.amazon.com/iexcell-Partially-Threaded-Thread-Socket/dp/B0DR1NX178/ref=sr_1_1?crid=35DT1MLQCOR9C&dib=eyJ2IjoiMSJ9.RlFuoSyG6Yoi2cmVkd0sQ47UpPY4y8uvofyrje4Ha76Dj6dcpknwvFT7DGc5jFqxw5Zd5g4SV-yre7xcMb3WB7MbBowQO3ZzvCgpYWcJ2xzphgz9gx0SNIr_ggqvFcAmxkNuMMVf0p9vPY-jJ2j9cbIk8IwMHlTo6kkuBINPotouNNyElpiy9qHhllwajmKY5v5uDIzJKNJvmhpUtJsd5IS7TB9VaRPkzsDbMDfR4pvs4JgNbU1Zmcu4Ex9fYcRHrOGjAZbbvNxo1r_N5MBKWbxbtZEDDKP_8Oyhgakhhnc.MTLa-_9PBksy6Qge1YqQmlejVfLKkuxB9gT-ZnB9ek0&dib_tag=se&keywords=screw+HM4-75&qid=1776330730&s=industrial&sprefix=screw+m4-75%2Cindustrial%2C401&sr=1-1)                   |
+| 螺丝             | HM4-70mm 紧定螺丝         | 4+  |                                                      | [Amazon](https://www.amazon.com/iexcell-Partially-Threaded-Thread-Socket/dp/B0DR1NX178/ref=sr_1_1?crid=35DT1MLQCOR9C&dib=eyJ2IjoiMSJ9.RlFuoSyG6Yoi2cmVkd0sQ47UpPY4y8uvofyrje4Ha76Dj6dcpknwvFT7DGc5jFqxw5Zd5g4SV-yre7xcMb3WB7MbBowQO3ZzvCgpYWcJ2xzphgz9gx0SNIr_ggqvFcAmxkNuMMVf0p9vPY-jJ2j9cbIk8IwMHlTo6kkuBINPotouNNyElpiy9qHhllwajmKY5v5uDIzJKNJvmhpUtJsd5IS7TB9VaRPkzsDbMDfR4pvs4JgNbU1Zmcu4Ex9fYcRHrOGjAZbbvNxo1r_N5MBKWbxbtZEDDKP_8Oyhgakhhnc.MTLa-_9PBksy6Qge1YqQmlejVfLKkuxB9gT-ZnB9ek0&dib_tag=se&keywords=screw+HM4-75&qid=1776330730&s=industrial&sprefix=screw+m4-75%2Cindustrial%2C401&sr=1-1)                   |
+| 螺丝             | HM3-6mm 螺丝            | 8+  |                                                      | [Amazon](https://www.amazon.com/BNUOK-120pcs-Stainless-Threads-Spanner/dp/B0DJQG5YLF/ref=sr_1_4?crid=3J1D711FNBYR9&dib=eyJ2IjoiMSJ9.wo20uXEJsuYS5OBVpnH9TILDd6HtQrJUlEvvYFPE5VV6bozIiRlWwmDaoYnp345KjXwRyxbEgEaRD8gVD2vVhPXg3M266n3H8t9cWN518aR4c5WkFUkqLIqLwdGYBllKcQQ8agsrZYgSVFp9G8LJR4l9oAj8Yx4QN8MReo2k23RVk-lkWeJk1azXD88GFTmd17aiXz6fwOE45Krj4VRiy1oskx8QvMprmJXtH8KowAJo-pWdBtePCCIUUa8oLR78hi17yW_OGJattIwdAziX9RizLI-EMh3hku42WJWnb3g.lZYqsYfJunSoEUPNT04E1sFhPiudREmrI0919PaPBYI&dib_tag=se&keywords=screw%2BHM3-12mm&qid=1776330531&s=industrial&sprefix=screw%2Bhm3-12mm%2Cindustrial%2C475&sr=1-4&th=1)       |
+| 螺丝             | HM3-26mm 螺丝           | 6+  |                                                      | [Amazon](https://www.amazon.com/BNUOK-120pcs-Stainless-Threads-Spanner/dp/B0DJQG5YLF/ref=sr_1_4?crid=3J1D711FNBYR9&dib=eyJ2IjoiMSJ9.wo20uXEJsuYS5OBVpnH9TILDd6HtQrJUlEvvYFPE5VV6bozIiRlWwmDaoYnp345KjXwRyxbEgEaRD8gVD2vVhPXg3M266n3H8t9cWN518aR4c5WkFUkqLIqLwdGYBllKcQQ8agsrZYgSVFp9G8LJR4l9oAj8Yx4QN8MReo2k23RVk-lkWeJk1azXD88GFTmd17aiXz6fwOE45Krj4VRiy1oskx8QvMprmJXtH8KowAJo-pWdBtePCCIUUa8oLR78hi17yW_OGJattIwdAziX9RizLI-EMh3hku42WJWnb3g.lZYqsYfJunSoEUPNT04E1sFhPiudREmrI0919PaPBYI&dib_tag=se&keywords=screw%2BHM3-12mm&qid=1776330531&s=industrial&sprefix=screw%2Bhm3-12mm%2Cindustrial%2C475&sr=1-4&th=1)       |
+| XT30 2+2 线缆    | 两端弯头，320mm            | 1+  | <img src="./Metal_Parts/images/XT30.png" width="80"> | 该线缆需要自行定制加工。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| XT30 2+2 线缆    | 两端弯头，200mm            | 4+  | <img src="./Metal_Parts/images/XT30.png" width="80"> | 该线缆需要自行定制加工。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| XT30 2+2 线缆    | 单端弯头，300mm            | 1+  | <img src="./Metal_Parts/images/XT30.png" width="80"> | 该线缆需要自行定制加工。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| XT30 2+2 线缆    | 两端直头                  | 1+  |                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 螺丝刀套装          | 内六角扳手套装               | 1   | 16 美元                                                | [Amazon](amazon.com/Amazon-Basics-Ratcheting-Electronics-Screwdriver/dp/B07V4TFWFZ/ref=sr_1_2?crid=ADAY70RZDSLN&dib=eyJ2IjoiMSJ9.jcLL4o6IXTnPlPfTTzbCZCBuZx2sLkvdUQCwlL58aq__GOyLxVPnwLI0mvGptba_HeVz6ctLQ_ziQw56BMDH9IOaw-4PVJGMktQM74mWficwggm3ckDGyAH-agN_zkB3K0_W-wrS56jfcMYFbZSWhWxr-iSOC4sdXwMGlt4rYGtenyn9yAFYBIHqjU2El5_OAKuspsrF0yQvfyfQPQHs46SClWN8zlSemGVZRuVSU26f0f9yApF6BfWHANKNNhT0Mfb6bQ8oM2XUMvwaazrrKoHeTARuoflVaVZvMU776bs.r8gy_gMINEy0qy4JyK--z-IbPZEv-SWeMGohOOE7M60&dib_tag=se&keywords=Screwdriver+set&qid=1774772499&s=industrial&sprefix=screwdriver+set+%2Cindustrial%2C374&sr=1-2)                |
+
+### 关于固定方式
+
+你可以基于我们提供的 3D 打印件自由修改底座。也可以根据桌面厚度使用 G 型夹进行固定。
+
+| 名称  | 规格 / 型号   | 数量 | 参考价格    | 备注                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --- | --------- | -- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 木工夹 | 6 英寸 G 型夹 | 2  | 20 美元/个 | [Amazon](https://www.amazon.com/gp/aw/d/B092J1YW2M/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=3557c048ce58e7dbb50b40c3af69f1d6&hsa_cr_id=0&qid=1774772748&sr=1-1-9e67e56a-6f64-441f-a281-df67fc737124&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=bNqtC&content-id=amzn1.sym.2fb72bc8-96ef-420d-b08f-c04b69f36507%3Aamzn1.sym.2fb72bc8-96ef-420d-b08f-c04b69f36507&pf_rd_p=2fb72bc8-96ef-420d-b08f-c04b69f36507&pf_rd_r=KDCPNZRHFWEWBWVHWSTR&pd_rd_wg=sBvfF&pd_rd_r=52b946ee-46e2-4e74-86ee-99e291552e44) |
 
 ### 关于电源
 
- 机械臂在发货时并未配备电源/默认情况下不带电源。您可自行连接电池，或选购一款48V 12.5A AMeanWell电源供应器。此外，您还需购买符合当地标准的三芯插头以及带有XT30母接头的接线束线带。
+机械臂默认不随附电源。你可以连接自己的电池，也可以购买可靠的台湾明纬 48V 12.5A 电源。此外，你还需要购买符合当地标准的三孔插头，以及带 XT30 母头连接器的线束。
 
-耗材BOM：
+#### 耗材 BOM
 
-| 名称 | 规格型号 | 数量 | 参考价格 | 备注 | 图片 |
-|------|----------|------|----------|------|-----|
-| 电源 | LRS-600-48（48V12.5A）| 1 | 240元 | [京东](https://item.jd.com/10161209537223.html?pcdk=XmL78Hf_3R95Ueqck5LtElx9qJy6oC0PjQU1dV0F2rEG5XTr6Xarc8us1UFQm_G2.3z6a.aI3x&spmTag=YTAyNDAuYjAwMjQ5My5jMDAwMDQwMjcuMiUyM3NrdV9jYXJkJTQwMTc4MTc2NzUwNjU1NyUyMzE3Nzk3NjA2MTA2MzA2NTcwNzkwNDUlMjM5NDcyNzI1NzE) | <img src="./Purchased_Parts/LRS-600-48.png" width="80"> |
-| 电源线 | 品字头中国标AC线；1.5m-国标3*1.5平方 | 1 | 10.1元 | [淘宝](https://item.taobao.com/item.htm?ali_refid=a3_430582_1006%3A1105615587%3AN%3AB%2Bm3wWI7DKWv2B1Ao1zaQw%3D%3D%3Ad813f59d10002e32a3cad4089078639a&ali_trackid=1_d813f59d10002e32a3cad4089078639a&id=563831183799&mi_id=0000yZ5nJxYKyYQFNkE-J27E2vJ7e72HEp5wPw0l0GOp3es&mm_sceneid=1_0_26399180_0&priceTId=2147848417799347060606382e13a0&skuId=4883125309759&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22b14df3dfddb2b6f551794738b363317b%22%7D&xxc=ad_ztc) | <img src="./Purchased_Parts/CCC Certified China GB Plug to IEC C13 Power Cord.png" width="80"> |
-| 输出口 | XT60E固定母头；XT60E固定母头+铜鼻-10厘米；4mm铜鼻孔 | 1 | 12.88元 | [淘宝](https://item.taobao.com/item.htm?id=956673114150&mi_id=0000_uyaWp89k03eiekkFeMWKpszoM6ZAOTjbIq27BJDMH0&skuId=5884092837633&spm=tbpc.boughtlist.suborder_itemtitle.1.fc742e8dyFymSC) | <img src="./Purchased_Parts/XT60E Female to Copper Lug Pigtail.png" width="80"> |
-| 电源AC连接线 | 1.5平方；红色，蓝色，黄注绿色各1根；UT-4.2单头半剥；10CM | 3 | 1.92元 | [淘宝](https://item.taobao.com/item.htm?id=735823838383&mi_id=0000tDETNB5HlQlbvU4caiMyLKg29f6HC2cUnIiwhoqMpEg&ns=1&priceTId=214784da17797856786187222e1ca6&skuId=5397670862340&spm=a21n57.1.similarHoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22f5929e70f42743346b130caea01d1341%22%7D&xxc=taobaoSearch) | <img src="./Purchased_Parts/RV Grounding Wire Coil with Y-Terminal Lugs.png" width="80"> |
-| 三合一品字插座 | 带红开快接款(双螺帽)（红灯） | 1 | 6.6元 | [淘宝](https://detail.tmall.com/item.htm?id=970232786169&mi_id=0000Ug3fwg0hgRytmCjZn5XZfDpWRx9slULUlaY0-e5vStc&spm=tbpc.boughtlist.suborder_itemtitle.1.fc742e8dyFymSC) | <img src="./Purchased_Parts/3-in-1 Quick-Connect IEC 320-C14 Inlet.png" width="80"> |
-| XT30转XT60连接线插头线航模16awg | XT30U母头转XT60公头 线长30CM | 1 | 7.5元 | [淘宝](https://item.taobao.com/item.htm?from=cart&id=933046470955&mi_id=000084EQEzOGgtB0DVpTa15GOaDbFTT5gTbDf7xph4gmYxk&skuId=5988958399582&spm=a1z0d.6639537%2F202410.item.d933046470955.350b74844tliiy&upStreamPrice=750) | <img src="./Purchased_Parts/XT30U_female_to_XT60_male.png" width="80"> |
-| 304十字沉头螺丝 | M4X6 | 10 | 2.39元 | / | / |
-| 304十字沉头螺丝 | M3X8 | 2 | 2.34元 | / | / |
-| 304十字圆头螺丝 | M3X8 | 2 | 2.1元 | / | / |
-| 六角螺母 | M3X2.5 | 2 | 2.1元 | / | / |
+| 名称                    | 规格                                              |  数量 |   参考价格   | 备注                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                            图片                                            |
+| :-------------------- | :---------------------------------------------- | :-: | :------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------: |
+| 电源                    | LRS-600-48（48V 12.5A）                           |  1  |   $69.5  | [amazon](https://www.amazon.com/LRS-600-48-Switching-Upgrade-Version-SE-600-48/dp/B0BV5XFYNS/ref=sr_1_1?crid=2MK5Y1UI66CW9&dib=eyJ2IjoiMSJ9.FAt8rrpVeLIbeU2px5Bpe3WU2xsHpE3Kw1Fc6ZdPBFrIpRsaASOwU1dL9jPUNnpXO5u67hvlSXTsKCXH7jehZ8VWfiSFbcHmsVhJY_ua86iPUltJFeWlT9LIXphFER27jHWGnaJb2NdRIpPBMVdae8qgIllUI1J-Q8pZranpyjkkiJP2RmiEdhUBXTvvH3-vhk8z2uhf7BJrGW7hjRbjyCO7WHwwBQ3tMcnEKwto2doy9qus35djHRzODSFPbMuiA66PdgPuib4VL1aQghehDEiceMIpTUiCHHeRHfpB71M._yrosm8mVfpUq-5PjNTLSaYPgv8Dot6YbQTaGULjlLQ&dib_tag=se&keywords=LRS-600-48&qid=1781762081&s=electronics&sprefix=lrs-600-48%2Celectronics%2C351&sr=1-1)                                                                                                                          |                  <img src="./Purchased_Parts/LRS-600-48.png" width="80">                 |
+| 电源线                   | 美规 AC 电源线                                       |  1  |   $4.49  | [amazon](https://www.amazon.com/LIFEPOE-Power-3-3ft-Black-3-Prong/dp/B0FK4KPW2G/ref=sr_1_1?crid=2W5766PT8EOKA&dib=eyJ2IjoiMSJ9.7E5s-9-Zh-jJAdni-17Iyt1Mr3GJD6hMt9pfk-0S5YxZtknZik9OiePitwUom0pYUbePRpdqa0dCZtGUjluQDEJbSDePHCGvBV6bwQU7wfwd0Loo4WJJmH_2CM1KRKSPcxHXRH0i1i5yuy4g7fDxxn3nPGYU3aF00m5jiIkMfYFgOxH4yURjjZeTMZAIO9wiVQUsPrlM51UIgpPo2YYdCQVUsxjumSsTAm0Jpt2SsBEdT-QzXSIKpLSvQ6kGijXF-4ZevaxiShJdmwU8t2LobDLcalXEOl3lriZTGhjwxow.r0oBabUkGwewhvO3IKlBMULdhUSe6yNTsjfFUaBsjyU&dib_tag=se&keywords=US%2BStandard%2BAC%2BCable%3B%2B1.5m%2B-%2B3%2B1.5mm%C2%B2&nsdOptOutParam=true&qid=1780021862&s=industrial&sprefix=lrs-350-24%2Cindustrial%2C387&sr=1-1&th=1)                                                                |             <img src="./Purchased_Parts/US Standard AC Cable.png" width="80">            |
+| 输出端口                  | XT60E 固定母座；XT60E 母头 + 铜鼻子线，10cm，4mm 圆孔          |  1  |   $9.99  | [amazon](https://www.amazon.com/LINSYRC-XT60E-F-Connector-Battery-Quadcopter/dp/B0CQK1P1DP/ref=pd_sbs_d_sccl_1_2/133-3898271-3474923?pd_rd_w=FmCVA&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=03QM0MRVZA968N9X6X6E&pd_rd_wg=WOZ9q&pd_rd_r=6e0577d2-de73-4427-affd-a271808e1453&pd_rd_i=B0CQK1P1DP&psc=1)                                                                                                                                                                                                                                                                                                                                                            |      <img src="./Purchased_Parts/XT60E Female to Copper Lug Pigtail.png" width="80">     |
+| AC 电源接线               | 1.5mm²；红、蓝、黄各 1 根（用户需要自行将端子压接到线材上，不包含预压接线）；10cm |  3  |   $0.99  | [aliexpress](https://www.aliexpress.com/item/1005008648016252.html?spm=a2g0o.productlist.main.2.15c9ZpluZpluHP&algo_pvid=09efee83-d80c-4ece-b588-3b1ef73279a3&algo_exp_id=09efee83-d80c-4ece-b588-3b1ef73279a3-1&pdp_ext_f=%7B%22order%22%3A%22230%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.58%210.99%21%21%2124.09%216.65%21%400b0b305117800339070873795e0f3d%2112000046086542230%21sea%21US%216593543849%21ABX%211%210%21n_tag%3A-29910%3Bd%3A518b3f9d%3Bm03_new_user%3A-29895%3BpisId%3A5000000207178484&curPageLogUid=74aJ9L7lm7hs&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008648016252%7C_p_origin_prod%3A&gatewayAdapt=4itemAdapt)                           | <img src="./Purchased_Parts/RV Grounding Wire Coil with Y-Terminal Lugs.png" width="80"> |
+| 三合一 IEC 电源插座          | 带红色开关的快接型插座（双螺母）                                |  1  |   $1.98  | [aliexpress](https://www.aliexpress.com/item/1005005962021242.html?spm=a2g0o.imagesearchproductlist.main.17.7db7cZZdcZZdCY&algo_pvid=270b0987-1973-41ad-a2b9-6fe008f9edb5&algo_exp_id=270b0987-1973-41ad-a2b9-6fe008f9edb5&pdp_ext_f=%7B%22order%22%3A%22346%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.31%211.98%21%21%2122.30%2113.35%21%400b0b305117800327806706342e118f%2112000035062406338%21sea%21US%216593543849%21ABX%211%210%21n_tag%3A-29910%3Bd%3A518b3f9d%3Bm03_new_user%3A-29895%3BpisId%3A5000000204886261&curPageLogUid=87JUDbPbch2i&utparam-url=scene%3Aimage_search%7Cquery_from%3Apc_web_image_search%7Cx_object_id%3A1005005962021242%7C_p_origin_prod%3A)                                      |           <img src="./Purchased_Parts/3-in-1 IEC Inlet Socket.png" width="80">           |
+| XT30 转 XT60 转接线，12AWG | XT30U 母头转 XT60 公头，线长 50cm                       |  1  |   $9.98  | [amazon](https://www.amazon.com/MEIRIYFA-Extension-Female-Adapter-Silicone/dp/B0B3DMJVV8/ref=sr_1_27?crid=18IGT0X1XS48F&dib=eyJ2IjoiMSJ9.qYRdGYT8G-SZEIPj6hMxuQLGxfv2AtkCiY3gitqnCn5xQhGZdsRAFETuJHlWK8od694BVQ9S5s-Pj7SsVcJxjxrXykP4sit5Cmz2HvRUzULa_jT-oGoR0ErPyaatF5aedauUQmY5bi6aYn5K_820VyPI6Jc-7L18WxPv0MVWxPMSduUx-Wu_VatV1AdePPQQsG63GQJm-JbW1p6lDP5gP1PTfDeoTd17xzb3QaooEDkJ9ktKNAjACX9UP7-xnS-vN7HTzX9NWkcKM8Ce0mYer_h5tnweVDzKnZlP65KMXDM.OXhg6VlhBUozkydCUQvH5OTfWZVSK-RkVZ-D5apJWzY&dib_tag=se&keywords=XT30+XT-30+to+XT60+XT-60+Male+Female+RC+Connector+Adapter+with+16awg+30cm&nsdOptOutParam=true&qid=1780818603&sprefix=xt30+xt-30+to+xt60+xt-60+male+female+rc+connector+adapter+with+16awg+3cm%2Caps%2C520&sr=8-27) |          <img src="./Purchased_Parts/XT30U_female_to_XT60_male.png" width="80">          |
+| 304 不锈钢十字沉头螺丝         | M4x6                                            |  10 |   $0.37  | /                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                             /                                            |
+| 304 不锈钢十字沉头螺丝         | M3x8                                            |  2  |   $0.36  | /                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                             /                                            |
+| 304 不锈钢十字圆头螺丝         | M3x8                                            |  2  |   $0.32  | /                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                             /                                            |
+| 六角螺母                  | M3x2.5                                          |  2  | 2.10 CNY | /                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                             /                                            |
 
-打印件BOM：
+打印件 BOM：
 
-| 名称 | 图片 | 数量  | 备注  |
-| ------ | ---- | --- | ---- |
-| [前壳](./3D_Printed_Parts/RS-power-Top%20Cover.stp) | <img src="./3D_Printed_Parts/images/RS-power-Top Cover.png" width="80"> | 1 | PLA0.4喷嘴 0.2层高 30%填充 |
-| [后壳](./3D_Printed_Parts/RS-power-Bottom%20Cover.stp) | <img src="./3D_Printed_Parts/images/RS-power-Bottom Cover.png" width="80"> | 1 | PLA0.4喷嘴 0.2层高 30%填充 |
-| [前壳（滑盖）](./3D_Printed_Parts/RS-power-Top%20Cover-Sliding%20Cover.stp) | <img src="./3D_Printed_Parts/images/RS-power-Top Cover-Sliding Cover.png" width="80"> | 1 | PLA0.4喷嘴 0.2层高 30%填充 |
+| 名称                                                                  | 图片                                                                                    | 数量 | 备注                       |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -- | ------------------------ |
+| [前壳](./3D_Printed_Parts/RS-power-Top%20Cover.stp)                   | <img src="./3D_Printed_Parts/images/RS-power-Top Cover.png" width="80">               | 1  | PLA，0.4 喷嘴，0.2 层高，30% 填充 |
+| [后壳](./3D_Printed_Parts/RS-power-Bottom%20Cover.stp)                | <img src="./3D_Printed_Parts/images/RS-power-Bottom Cover.png" width="80">            | 1  | PLA，0.4 喷嘴，0.2 层高，30% 填充 |
+| [前壳滑盖](./3D_Printed_Parts/RS-power-Top%20Cover-Sliding%20Cover.stp) | <img src="./3D_Printed_Parts/images/RS-power-Top Cover-Sliding Cover.png" width="80"> | 1  | PLA，0.4 喷嘴，0.2 层高，30% 填充 |
 
 #### 电源组装
 
-- 电源方案组装步骤分为前壳和后壳两个部分：
+* 电源组装步骤分为两部分：前壳组装和后壳组装。
 
-##### 1.前壳组装
+##### 1. 前壳组装
 
-| Step | 操作说明 | 图片 | 备注 |
-|:---:|---|---|---|
-| 1-1 | 准备前壳组装所需零件和打印件 | <img src="./Assembly_Steps/powerstep_images/1-1.png" width="80"> | 检查零件是否齐全 |
-| 1-2 | 各零件线序说明，按线序进行组装 | <img src="./Assembly_Steps/powerstep_images/1-2(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-2(2).png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-2(3).png" width="80"> | 严格按照线序连接 |
-| 1-3 | 安装 XT60 座子 | <img src="./Assembly_Steps/powerstep_images/1-3（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-3（2）.png" width="80"> | 使用304十字沉头螺丝M3X8和六角螺母M3X2.5固定 |
-| 1-4 | 安装三合一品字插座 | <img src="./Assembly_Steps/powerstep_images/1-4（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-4（2）.png" width="80"> | 304十字圆头螺丝M3X8对三合一品字插座固定 |
-| 1-5 | 前壳内部接线 | <img src="./Assembly_Steps/powerstep_images/1-5（1）.png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-5（2）.png" width="80"> | 对照线序图检查连接 |
-| 1-6 | 固定前壳与电源两侧 | <img src="./Assembly_Steps/powerstep_images/1-6（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-6（2）.png" width="80"> | M4X6_304十字沉头螺丝X4 |
-| 1-7 | 安装滑盖 | <img src="./Assembly_Steps/powerstep_images/1-7（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-7(2).png" width="80"> | 从电源底部推入 |
-| 1-8 | 固定滑盖 | <img src="./Assembly_Steps/powerstep_images/1-8.png" width="80"> | M4X6_304十字沉头螺丝X2 |
-
----
-
-##### 2.后壳组装
-
-| Step | 操作说明 | 图片 | 备注 |
-|:---:|---|---|---|
-| 2-1 | 准备后壳组装所需零件和打印件 | <img src="./Assembly_Steps/powerstep_images/2-1.png" width="80"> | 检查配件完整性 |
-| 2-2 | 将后壳与电源组装 | <img src="./Assembly_Steps/powerstep_images/2-2.png" width="80"> | 对齐位置 |
-| 2-3 | 固定后壳与电源两侧 | <img src="./Assembly_Steps/powerstep_images/2-3(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/2-3(2).png" width="80"> | M4X6_304十字沉头螺丝X4 |
+|  步骤 | 描述                   | 图片                                                                                                                                                                                                                                     | 备注                                |
+| :-: | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| 1-1 | 准备前壳组装所需的零件和打印件      | <img src="./Assembly_Steps/powerstep_images/1-1.png" width="80">                                                                                                                                                                       | 检查所有零件是否齐全                        |
+| 1-2 | 各部件接线顺序说明；按照接线顺序进行组装 | <img src="./Assembly_Steps/powerstep_images/1-2(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-2(2).png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-2(3).png" width="80"> | 严格按照接线顺序连接                        |
+| 1-3 | 安装 XT60 连接器          | <img src="./Assembly_Steps/powerstep_images/1-3（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-3（2）.png" width="80">                                                                        | 使用 M3x8 304 十字沉头螺丝和 M3x2.5 六角螺母固定 |
+| 1-4 | 安装三合一 IEC 插座         | <img src="./Assembly_Steps/powerstep_images/1-4（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-4（2）.png" width="80">                                                                        | 使用 M3x8 304 十字圆头螺丝固定三合一 IEC 插座    |
+| 1-5 | 前壳内部接线               | <img src="./Assembly_Steps/powerstep_images/1-5（1）.png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-5（2）.png" width="80">                                                                                             | 根据接线图检查连接                         |
+| 1-6 | 将前壳固定到电源两侧           | <img src="./Assembly_Steps/powerstep_images/1-6（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-6（2）.png" width="80">                                                                        | 4 颗 M4x6 304 十字沉头螺丝               |
+| 1-7 | 安装滑盖                 | <img src="./Assembly_Steps/powerstep_images/1-7（1）.png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-7(2).png" width="80">                                                                        | 从电源底部推入                           |
+| 1-8 | 固定滑盖                 | <img src="./Assembly_Steps/powerstep_images/1-8.png" width="80">                                                                                                                                                                       | 2 颗 M4x6 304 十字沉头螺丝               |
 
 ---
 
-##### 3.总体完成
+##### 2. 后壳组装
 
-| Step | 操作说明 | 图片 | 备注 |
-|:---:|---|---|---|
-| 1 | 电源方案总体组装完成 | <img src="./Assembly_Steps/powerstep_images/3.png" width="80"> | 检查所有螺丝紧固情况 |
+|  步骤 | 描述              | 图片                                                                                                                                                              | 备注                  |
+| :-: | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| 2-1 | 准备后壳组装所需的零件和打印件 | <img src="./Assembly_Steps/powerstep_images/2-1.png" width="80">                                                                                                | 检查所有配件是否齐全          |
+| 2-2 | 将后壳与电源进行装配      | <img src="./Assembly_Steps/powerstep_images/2-2.png" width="80">                                                                                                | 对齐安装位置              |
+| 2-3 | 将后壳固定到电源两侧      | <img src="./Assembly_Steps/powerstep_images/2-3(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/2-3(2).png" width="80"> | 4 颗 M4x6 304 十字沉头螺丝 |
 
 ---
+
+##### 3. 最终完成
+
+|  步骤 | 描述     | 图片                                                             | 备注         |
+| :-: | ------ | -------------------------------------------------------------- | ---------- |
+|  1  | 电源组装完成 | <img src="./Assembly_Steps/powerstep_images/3.png" width="80"> | 检查所有螺丝是否拧紧 |
+
+我保留了所有图片路径和链接。
