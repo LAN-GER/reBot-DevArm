@@ -126,7 +126,7 @@ We are committed to continuously maintaining and adapting to mainstream robot de
 | Supported Ecosystem | Status | Description / Estimated Release Date | Related Documentation |
 | :--- | :---: | :--- | :--- |
 | **Basic Motor Usage** | ✅ Completed | Basic motion control and API encapsulation | [Robstride](https://wiki.seeedstudio.com/cn/robstride_control/) |
-| **Open-Sourcing of the New STEP 3D Structural Parts and BOM** | ✅ Completed | STEP files for all parts in the new version, parts BOM, and reference prices for all machined components | [reBot Arm B601-RS BOM](./hardware/reBot_B601_RS/readme.md) |
+| **Open-Sourcing of the New STEP 3D Structural Parts and BOM** | ✅ Completed | STEP files for all parts in the new version, parts BOM, and reference prices for all machined components | [reBot Arm B601-RS BOM](./hardware/reBot_B601_RS/README.md) |
 |**Getting Started**| ✅ Completed | Quick start of B601-RS| [Getting Started with reBot Arm B601-RS](https://wiki.seeedstudio.com/rebot_b601_rs_getting_started/) |
 | **Assembly Video** | ✅ Completed | Ultra-detailed assembly steps and video | [reBot Arm B601-RS Assembly Video](https://wiki.seeedstudio.com/rebot_b601_rs_getting_started/) |
 | **ROS2 (Humble)** | ✅ Completed | ROS2 integrated reBot Arm controller with support for kinematics, trajectory planning, gravity compensation and MoveIt2 | [reBot Arm B601-DM ROS2 Integration Guide](https://wiki.seeedstudio.com/rebot_arm_b601_rs_ros2_integration/) |
