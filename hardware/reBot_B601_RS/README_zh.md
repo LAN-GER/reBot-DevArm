@@ -1,5 +1,3 @@
-下面是中文翻译版本：
-
 # 🤖 reBot DevArm 开源硬件规格说明
 
 <p align="center">
