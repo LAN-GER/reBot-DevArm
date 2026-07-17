@@ -62,23 +62,19 @@
   <strong>🛒 官方购买</strong>
 </p>
 
-<table align="center" border="2" frame="box" cellpadding="12" cellspacing="0">
+<table align="center" border="1" cellpadding="12" cellspacing="0">
   <tr>
-    <td align="center" width="280">
-      <p align="center"><b>&#x1F9FE; reBot Arm B601-DM</b></p>
-      <p align="center">
-        <a href="https://detail.tmall.com/item.htm?abbucket=15&id=1042412233386&mi_id=0000BiQLUzyi99wQf6g6cKZaF_mOtz3BclXOLpZSNYOSa_A&ns=1&priceTId=2147851217842576937748715e0e71&skuId=6073790464610&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%222dd086a2f4fdb8f473c4837ae8ea1f7f%22%7D&xxc=taobaoSearch" target="_blank">
-          <img src="https://img.shields.io/badge/立即购买-FF6B00?style=for-the-badge" alt="购买 B601-DM">
-        </a>
-      </p>
+    <td align="center" width="260">
+      <b>&#x1F9FE; reBot Arm B601-DM</b><br><br>
+      <a href="https://detail.tmall.com/item.htm?abbucket=15&id=1042412233386&mi_id=0000BiQLUzyi99wQf6g6cKZaF_mOtz3BclXOLpZSNYOSa_A&ns=1&priceTId=2147851217842576937748715e0e71&skuId=6073790464610&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%222dd086a2f4fdb8f473c4837ae8ea1f7f%22%7D&xxc=taobaoSearch" target="_blank">
+        <big><b>&#x1F6D2; &#x7ACB;&#x5373;&#x8D2D;&#x4E70;</b></big>
+      </a>
     </td>
-    <td align="center" width="280">
-      <p align="center"><b>&#x1F9FE; reBot Arm B601-RS</b></p>
-      <p align="center">
-        <a href="https://detail.tmall.com/item.htm?abbucket=15&id=1057521963559&mi_id=0000h2A59R8gsL5UdF6Je_CGKUavZ7ORqUN5uHCrlml9-dg&ns=1&priceTId=2147815217842579872861861e0e43&skuId=6267129098361&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%2219518482a8df5e898e7492d6c9e35c5e%22%7D&xxc=taobaoSearch" target="_blank">
-          <img src="https://img.shields.io/badge/立即购买-0099CC?style=for-the-badge" alt="购买 B601-RS">
-        </a>
-      </p>
+    <td align="center" width="260">
+      <b>&#x1F9FE; reBot Arm B601-RS</b><br><br>
+      <a href="https://detail.tmall.com/item.htm?abbucket=15&id=1057521963559&mi_id=0000h2A59R8gsL5UdF6Je_CGKUavZ7ORqUN5uHCrlml9-dg&ns=1&priceTId=2147815217842579872861861e0e43&skuId=6267129098361&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%2219518482a8df5e898e7492d6c9e35c5e%22%7D&xxc=taobaoSearch" target="_blank">
+        <big><b>&#x1F6D2; &#x7ACB;&#x5373;&#x8D2D;&#x4E70;</b></big>
+      </a>
     </td>
   </tr>
 </table>
