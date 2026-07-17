@@ -51,13 +51,36 @@
     <a href="./README_es.md">Español</a>
   </strong>
 </p>
-
 <p align="center">
 <a href="https://discord.gg/AbGuqJhDpQ">
     <img src="https://img.shields.io/discord/1409155673572249672?color=7289DA&label=Discord&logo=discord&logoColor=white"></a>
 <a href="https://wiki.seeedstudio.com/robotics_page/">  
     <img src="https://img.shields.io/badge/Documentation-📕-blue" alt="robotics wiki"></a>
 </p>
+
+<p align="center">
+  <strong>🛒 官方购买</strong>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="300" style="border: 3px solid #FF6B00; border-radius: 16px; padding: 20px 24px; background: #1a1a1a;">
+      <strong style="font-size: 1.1em;">🦾 reBot Arm B601-DM</strong><br>
+      <sub style="color: #aaa;">达妙电机 · 24V · 1.5kg 负载 · 650mm 臂展</sub><br><br>
+      <a href="https://detail.tmall.com/item.htm?abbucket=15&id=1042412233386&mi_id=0000BiQLUzyi99wQf6g6cKZaF_mOtz3BclXOLpZSNYOSa_A&ns=1&priceTId=2147851217842576937748715e0e71&skuId=6073790464610&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%222dd086a2f4fdb8f473c4837ae8ea1f7f%22%7D&xxc=taobaoSearch" target="_blank">
+        <img src="https://img.shields.io/badge/🛒_立即购买-FF6B00?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="购买 B601-DM">
+      </a>
+    </td>
+    <td width="20" style="border: none; background: transparent;"></td>
+    <td align="center" width="300" style="border: 3px solid #0099CC; border-radius: 16px; padding: 20px 24px; background: #1a1a1a;">
+      <strong style="font-size: 1.1em;">🦾 reBot Arm B601-RS</strong><br>
+      <sub style="color: #aaa;">灵足电机 · 48V · 2.5kg 负载 · 754mm 臂展</sub><br><br>
+      <a href="https://detail.tmall.com/item.htm?abbucket=15&id=1057521963559&mi_id=0000h2A59R8gsL5UdF6Je_CGKUavZ7ORqUN5uHCrlml9-dg&ns=1&priceTId=2147815217842579872861861e0e43&skuId=6267129098361&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%2219518482a8df5e898e7492d6c9e35c5e%22%7D&xxc=taobaoSearch" target="_blank">
+        <img src="https://img.shields.io/badge/🛒_立即购买-0099CC?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="购买 B601-RS">
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 ## 📖 项目简介 (Introduction)
