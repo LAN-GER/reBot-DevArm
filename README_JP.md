@@ -62,6 +62,27 @@
     <img src="https://img.shields.io/badge/Documentation-📕-blue" alt="ロボティクス wiki"></a>
 </p>
 
+<p align="center">
+  <strong>🛒 公式ストアで購入</strong>
+</p>
+
+<table align="center" border="1" cellpadding="12" cellspacing="12">
+  <tr>
+    <td align="center" width="260" bgcolor="#FFF8F0">
+      <b>&#x1F9FE; reBot Arm B601-DM</b><br><br>
+      <a href="https://www.seeedstudio.com/reBot-Arm-B601-DM-Assembled-Kit-with-Power-Supply-Bundle.html" target="_blank">
+        <big><b>&#x1F6D2; &#x4ECA;&#x3059;&#x3050;&#x8CFC;&#x5165;</b></big>
+      </a>
+    </td>
+    <td align="center" width="260" bgcolor="#F0F4FF">
+      <b>&#x1F9FE; reBot Arm B601-RS</b><br><br>
+      <a href="https://www.seeedstudio.com/reBot-Arm-B601-RS-Bundle-p-6898.html" target="_blank">
+        <big><b>&#x1F6D2; &#x4ECA;&#x3059;&#x3050;&#x8CFC;&#x5165;</b></big>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 ## 📖 はじめに
 
