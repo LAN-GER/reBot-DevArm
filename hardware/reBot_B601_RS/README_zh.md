@@ -5,11 +5,10 @@
 </p>
 <p align="center">
   <strong>
-    <a href="./readme_zh.md">简体中文</a> &nbsp;|&nbsp;
-    <a href="./readme.md">English</a> &nbsp;|&nbsp;
-    <a href="./readme_jp.md">日本語</a>&nbsp;|&nbsp;
-    <a href="./readme_fr.md">français</a>&nbsp;|&nbsp;
-    <a href="./readme_es.md">Español</a>
+    <a href="./README_zh.md">简体中文</a> &nbsp;|&nbsp;
+    <a href="./README.md">English</a> &nbsp;|&nbsp;
+    <a href="./README_fr.md">français</a>&nbsp;|&nbsp;
+    <a href="./README_es.md">Español</a>
   </strong>
 </p>
 
@@ -17,7 +16,7 @@
 | ---------- | ---- | -------------------------------- | ---- |
 | 2026-07-09 | v1.0 | reBot_B601_RS_v1.0_20260625.step | 首次上传 |
 
-本 BOM 适用于 reBot Arm B601 RS 机械臂，该版本使用 ROBOSTRIDE 系列电机。另一个版本 reBot Arm B601 DM 使用 DAMIAO 电机；[请在此查看 BOM](../reBot_B601_DM/README.md)。
+本 BOM 适用于 reBot Arm B601 RS 机械臂，该版本使用 ROBOSTRIDE 系列电机。另一个版本 reBot Arm B601 DM 使用 DAMIAO 电机；[请在此查看 BOM](../reBot_B601_DM/readme.md)。
 
 # 📦 文件结构
 
