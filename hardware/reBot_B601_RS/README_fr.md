@@ -5,11 +5,10 @@
 </p>
 <p align="center">
   <strong>
-    <a href="./readme_zh.md">简体中文</a> &nbsp;|&nbsp;
-    <a href="./readme.md">English</a> &nbsp;|&nbsp;
-    <a href="./readme_jp.md">日本語</a>&nbsp;|&nbsp;
-    <a href="./readme_fr.md">français</a>&nbsp;|&nbsp;
-    <a href="./readme_es.md">Español</a>
+    <a href="./README_zh.md">简体中文</a> &nbsp;|&nbsp;
+    <a href="./README.md">English</a> &nbsp;|&nbsp;
+    <a href="./README_fr.md">français</a>&nbsp;|&nbsp;
+    <a href="./README_es.md">Español</a>
   </strong>
 </p>
 
@@ -17,7 +16,7 @@
 | ---------- | ------- | -------------------------------- | ------------------------- |
 | 2026-07-09 | v1.0    | reBot_B601_RS_v1.0_20260625.step | Première mise en ligne    |
 
-Cette BOM concerne le bras robotique reBot Arm B601 RS, qui utilise des moteurs de la série ROBOSTRIDE. L’autre version, reBot Arm B601 DM, utilise des moteurs DAMIAO ; [voir la BOM ici](../reBot_B601_DM/README.md).
+Cette BOM concerne le bras robotique reBot Arm B601 RS, qui utilise des moteurs de la série ROBOSTRIDE. L’autre version, reBot Arm B601 DM, utilise des moteurs DAMIAO ; [voir la BOM ici](../reBot_B601_DM/readme.md).
 
 # 📦 Structure des fichiers
 

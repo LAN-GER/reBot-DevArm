@@ -6,11 +6,10 @@
 </p>
 <p align="center">
   <strong>
-    <a href="./readme_zh.md">简体中文</a> &nbsp;|&nbsp;
-    <a href="./readme.md">English</a> &nbsp;|&nbsp;
-    <a href="./readme_jp.md">日本語</a>&nbsp;|&nbsp;
-    <a href="./readme_fr.md">français</a>&nbsp;|&nbsp;
-    <a href="./readme_es.md">Español</a>
+    <a href="./README_zh.md">简体中文</a> &nbsp;|&nbsp;
+    <a href="./README.md">English</a> &nbsp;|&nbsp;
+    <a href="./README_fr.md">français</a>&nbsp;|&nbsp;
+    <a href="./README_es.md">Español</a>
   </strong>
 </p>
 
@@ -20,7 +19,7 @@
 |  2026-07-09 | v1.0 |  reBot_B601_RS_v1.0_20260625.step  | Initial upload |
 
 
-This BOM is for the reBot Arm B601 RS robotic arm, which uses ROBOSTRIDE series motors. The other version, reBot Arm B601 DM, uses DAMIAO motors; [see the BOM here](../reBot_B601_DM/README.md).
+This BOM is for the reBot Arm B601 RS robotic arm, which uses ROBOSTRIDE series motors. The other version, reBot Arm B601 DM, uses DAMIAO motors; [see the BOM here](../reBot_B601_DM/readme.md).
 
 # 📦 File Structure
 *   3D_Printed_Parts/: Step files for all 3D printed parts.
