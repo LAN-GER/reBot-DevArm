@@ -27,6 +27,12 @@ jobs:
           output: docs/star-history.svg
 
 
+      - name: Check generated files
+        run: |
+          ls -la
+          find . -name "*.svg"
+
+
       - name: Commit changes
         run: |
           git config --global user.name github-actions
