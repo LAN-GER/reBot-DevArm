@@ -357,8 +357,7 @@ This project is deeply inspired by the following excellent open source projects:
   <source media="(prefers-color-scheme: light)" 
           srcset="assets/star-history/star-history-light.svg">
 
-  <img alt="Star History Chart" 
-       src="assets/star-history/star-history-light.svg">
+  <img src="assets/star-history/star-history-light.svg">
 </picture>
 </p>
 

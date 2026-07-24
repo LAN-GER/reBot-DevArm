@@ -354,8 +354,7 @@ reBot-DevArm 不仅仅是一个机械臂，更是一个机器人学习社区。�
   <source media="(prefers-color-scheme: light)" 
           srcset="assets/star-history/star-history-light.svg">
 
-  <img alt="Star History Chart" 
-       src="assets/star-history/star-history-light.svg">
+  <img src="assets/star-history/star-history-light.svg">
 </picture>
 </p>
 
