@@ -38,7 +38,7 @@ jobs:
           git config --global user.name github-actions
           git config --global user.email github-actions@github.com
 
-          git add docs/star-history.svg
+          git add assets/star-history/
 
           git commit -m "Update star history chart" || exit 0
 

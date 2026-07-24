@@ -344,7 +344,20 @@ reBot-DevArm 不仅仅是一个机械臂，更是一个机器人学习社区。�
 
 ## Star 趋势
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Seeed-Projects/reBot-DevArm&type=date&legend=top-left)](https://www.star-history.com/#Seeed-Projects/reBot-DevArm&type=date&legend=top-left)
+## Star History
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="assets/star-history/star-history-dark.svg">
+
+  <source media="(prefers-color-scheme: light)" 
+          srcset="assets/star-history/star-history-light.svg">
+
+  <img alt="Star History Chart" 
+       src="assets/star-history/star-history-light.svg">
+</picture>
+</p>
 
 
 # reBot-DevArm 项目许可证

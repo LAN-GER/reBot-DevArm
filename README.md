@@ -349,7 +349,18 @@ This project is deeply inspired by the following excellent open source projects:
 
 ## Star History
 
-![Star History](docs/star-history.svg)
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="assets/star-history/star-history-dark.svg">
+
+  <source media="(prefers-color-scheme: light)" 
+          srcset="assets/star-history/star-history-light.svg">
+
+  <img alt="Star History Chart" 
+       src="assets/star-history/star-history-light.svg">
+</picture>
+</p>
 
 # reBot-DevArm Project License
 

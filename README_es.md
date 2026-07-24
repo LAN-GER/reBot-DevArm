@@ -349,7 +349,20 @@ Este proyecto está profundamente inspirado en los siguientes excelentes proyect
 
 ## Historial de estrellas
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Seeed-Projects/reBot-DevArm&type=date&legend=top-left)](https://www.star-history.com/#Seeed-Projects/reBot-DevArm&type=date&legend=top-left)
+## Star History
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="assets/star-history/star-history-dark.svg">
+
+  <source media="(prefers-color-scheme: light)" 
+          srcset="assets/star-history/star-history-light.svg">
+
+  <img alt="Star History Chart" 
+       src="assets/star-history/star-history-light.svg">
+</picture>
+</p>
 
 # Licencia del proyecto reBot-DevArm
 
