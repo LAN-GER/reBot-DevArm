@@ -1,0 +1,39 @@
+name: Update Star History
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+
+jobs:
+  star-history:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Generate Star History Chart
+        uses: star-history/action@v1
+        with:
+          repo: Seeed-Projects/reBot-DevArm
+          output: docs/star-history.svg
+
+
+      - name: Commit changes
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+
+          git add docs/star-history.svg
+
+          git commit -m "Update star history chart" || exit 0
+
+          git push

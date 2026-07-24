@@ -349,7 +349,7 @@ This project is deeply inspired by the following excellent open source projects:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Seeed-Projects/reBot-DevArm&type=date&legend=top-left)](https://www.star-history.com/#Seeed-Projects/reBot-DevArm&type=date&legend=top-left)
+![Star History](docs/star-history.svg)
 
 # reBot-DevArm Project License
 
