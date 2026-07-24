@@ -21,9 +21,9 @@ jobs:
 
 
       - name: Generate Star History Chart
-        uses: star-history/action@v1
+        uses: narayann7/star-history-action@main
         with:
-          repo: Seeed-Projects/reBot-DevArm
+          repos: Seeed-Projects/reBot-DevArm
           output: docs/star-history.svg
 
 
