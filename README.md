@@ -73,7 +73,10 @@
     <td align="center" width="260" bgcolor="#FFF8F0">
       <b>&#x1F9FE; reBot Arm B601-DM</b><br><br>
       <a href="https://www.seeedstudio.com/reBot-Arm-B601-DM-Assembled-Kit-with-Power-Supply-Bundle.html" target="_blank">
-        <big><b>&#x1F6D2; Buy now</b></big>
+        <big><b>&#x1F6D2; SeeedStudio Bazaar</b></big>
+      </a>
+        <a href="https://www.amazon.com/dp/B0H2TWVFSW" target="_blank">
+        <big><b>&#x1F6D2; Amazon</b></big>
       </a>
     </td>
     <td align="center" width="260" bgcolor="#F0F4FF">
