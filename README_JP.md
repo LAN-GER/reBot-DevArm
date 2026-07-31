@@ -179,10 +179,9 @@ reBot-DevArm は、デスクトップ向け Embodied AI アプリケーション
 | <img src="/community/from_Binh_Pham.png" height="100"> | <img src="/community/from_fangtianchonghui.png" height="100">   |<img src="/community/from_xensedyl.png" height="100">  |<img src="/community/from_Henderson_2.png" height="100">  | <img src="/community/YOR_Car.png" height="100"> |
 | [From Binh_Pham](https://x.com/pham_blnh/status/2061994096374505710) | [From FangTianChongHui](https://www.instagram.com/reel/DY7Ny8OPjVu/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==)| [Xense YaoLin Dong](https://x.com/dong1505lin)  | [From Ed Henderson](https://x.com/ed0henderson/status/2055076839002095743)  |  [From yoshikai_man](https://x.com/yoshikai_man/status/2079938975398244705)  | 
 
-| <img src="/community/hei-robot-lift-play.gif" height="100"> | <img src="/community/VR_with_reBot.png" height="100">   |<img src="/community/reBot_grasp_fruit.png" height="100">  |<img src="/community/from_Henderson_2.png" height="100">  | <img src="/community/Groot_N1.7.png" height="100"> |
+| <img src="/community/hei-robot-lift-play.gif" height="100"> | <img src="/community/VR_with_reBot.png" height="100">   |<img src="/community/reBot_grasp_fruit.png" height="100">  |<img src="/community/Daniel_Dorado.jpg" height="100">  | <img src="/community/Groot_N1.7.png" height="100"> |
 | --- | --- | --- | --- |  --- | 
 | [From hei-rebot-lift](https://github.com/lipengdong/hei-rebot-lift) | [From Martin Kemka](https://www.linkedin.com/posts/activity-7484390995862781952-TX4m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)| [From Kamil Buczyński](https://www.linkedin.com/posts/kamil-buczy%C5%84ski-102843301_seeedstudio-rebotarm-seeedprojectofthemonth-ugcPost-7485297094715461633-RV_6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)  | [From Daniel Dorado](https://www.linkedin.com/posts/doradodaniel_computervision-spatialai-sim2real-share-7474727487374184448-NhwX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)  |  [From Asier](https://www.linkedin.com/posts/asierarranz_nvidia-physicalai-isaaclab-ugcPost-7480271721942417408-YNwu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)  | 
-
 
 ## 🧹オプションパーツ
 ### 手首カメラマウント
