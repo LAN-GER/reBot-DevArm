@@ -66,6 +66,7 @@
   <strong>🛒 公式ストアで購入</strong>
 </p>
 
+
 <table align="center" border="1" cellpadding="12" cellspacing="12">
   <tr>
     <td align="center" width="260" bgcolor="#FFF8F0">
@@ -77,14 +78,14 @@
         <big><b>&#x1F6D2; Amazon</b></big>
       </a>
       </a>
-        <a href="security.feishu.cn/link/safety?target=https%3A%2F%2Fde.aliexpress.com%2Fitem%2F1005012108314029.html%3FgatewayAdapt%3Dglo2deu&scene=ccm&logParams=%7B"location"%3A"ccm_sheet"%7D&lang=zh-CN&from=from_parent_docs" target="_blank">
+        <a href="https://security.feishu.cn/link/safety?target=https%3A%2F%2Fde.aliexpress.com%2Fitem%2F1005012108314029.html%3FgatewayAdapt%3Dglo2deu&scene=ccm&logParams=%7B%22location%22%3A%22ccm_sheet%22%7D&lang=zh-CN&from=from_parent_docs"location"%3A"ccm_sheet"%7D&lang=zh-CN&from=from_parent_docs" target="_blank">
         <big><b>&#x1F6D2; Aliexpress</b></big>
       </a>
     </td>
     <td align="center" width="260" bgcolor="#F0F4FF">
       <b>&#x1F9FE; reBot Arm B601-RS</b><br><br>
       <a href="https://www.seeedstudio.com/reBot-Arm-B601-RS-Bundle-p-6898.html" target="_blank">
-        <big><b>&#x1F6D2; Buy now</b></big>
+        <big><b>&#x1F6D2;  SeeedStudio Bazaar</b></big>
       </a>
       <a href="https://www.aliexpress.us/item/3256812343811970.html?gatewayAdapt=deu2usa4itemAdapt" target="_blank">
         <big><b>&#x1F6D2; Aliexpress</b></big>
