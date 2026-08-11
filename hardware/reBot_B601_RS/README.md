@@ -85,8 +85,8 @@ Long-term dragging of Wiring Harness 1 may abrade the motor connector and result
 | Link1 Right Metal | <img src="./Metal_Parts/images/Link1_Right_Metal.png" width="80"> | 2-RSM-ROTOR-R.step | Aluminum Alloy 5052 | 4 | CNC ||
 | Link1 Bottom Metal | <img src="./Metal_Parts/images/Link1_Bottom_Metal.png" width="80"> | 2-RSM1-ROTOR-1.step | Aluminum Alloy 5052 | 3 | CNC | |
 | Joint Metal Disc  | <img src="./Metal_Parts/images/2-CD.png" width="80"> | 2-CD.step | Aluminum Alloy 5052 | 3 | CNC | Used to Conceal Screws |
-| RS06 Front Extesnion | <img src="./Metal_Parts/images/RS06_Front_Extesnion.png" width="80"> | 2-RSM2-STATOR-1.step | Aluminum Alloy 5052 | 1 | CNC | |
-| RS06 Back Extesnion | <img src="./Metal_Parts/images/RS06_Back_Extesnion.png" width="80"> | 2-RSM2-STATOR-2.step | Aluminum Alloy 5052 | 1 | CNC | |
+| RS06 Front Extesnion | <img src="./Metal_Parts/images/RS06_Front_Extesnion.png" width="80"> | 2-RSM2-STATOR-1.step | Aluminum Alloy 5052 | 2 | CNC | |
+| RS06 Back Extesnion | <img src="./Metal_Parts/images/RS06_Back_Extesnion.png" width="80"> | 2-RSM2-STATOR-2.step | Aluminum Alloy 5052 | 2 | CNC | |
 | Link2 Left and Right Metal | <img src="./Metal_Parts/images/2-LINK-2_3.png" width="80"> | 2-LINK-2_3.step | Aluminum Alloy 5052 | 2 | CNC | |
 | Upper Limit L | <img src="./Metal_Parts/images/Upper_limit_L.png" width="80"> | 2-Upper-Limit_L.stp | Aluminum Alloy 5052 | 1 | CNC | |
 | Upper Limit R | <img src="./Metal_Parts/images/Upper_limit_R.png" width="80"> | 2-Upper-Limit_R.stp | Aluminum Alloy 5052 | 1 | CNC | |

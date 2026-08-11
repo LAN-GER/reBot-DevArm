@@ -84,8 +84,8 @@ El arrastre prolongado del arnés de cableado del motor 1 puede desgastar el con
 | Pieza metálica derecha del Link1 | <img src="./Metal_Parts/images/Link1_Right_Metal.png" width="80"> | 2-RSM-ROTOR-R.step | Aleación de aluminio 5052 | 4 | CNC ||
 | Pieza metálica inferior del Link1 | <img src="./Metal_Parts/images/Link1_Bottom_Metal.png" width="80"> | 2-RSM1-ROTOR-1.step | Aleación de aluminio 5052 | 3 | CNC | |
 | Disco metálico de la articulación  | <img src="./Metal_Parts/images/2-CD.png" width="80"> | 2-CD.step | Aleación de aluminio 5052 | 3 | CNC | Se utiliza para ocultar los tornillos |
-| Extensión frontal del RS06 | <img src="./Metal_Parts/images/RS06_Front_Extesnion.png" width="80"> | 2-RSM2-STATOR-1.step | Aleación de aluminio 5052 | 1 | CNC | |
-| Extensión trasera del RS06 | <img src="./Metal_Parts/images/RS06_Back_Extesnion.png" width="80"> | 2-RSM2-STATOR-2.step | Aleación de aluminio 5052 | 1 | CNC | |
+| Extensión frontal del RS06 | <img src="./Metal_Parts/images/RS06_Front_Extesnion.png" width="80"> | 2-RSM2-STATOR-1.step | Aleación de aluminio 5052 | 2 | CNC | |
+| Extensión trasera del RS06 | <img src="./Metal_Parts/images/RS06_Back_Extesnion.png" width="80"> | 2-RSM2-STATOR-2.step | Aleación de aluminio 5052 | 2 | CNC | |
 | Piezas metálicas izquierda y derecha del Link2 | <img src="./Metal_Parts/images/2-LINK-2_3.png" width="80"> | 2-LINK-2_3.step | Aleación de aluminio 5052 | 2 | CNC | |
 | Tope superior L | <img src="./Metal_Parts/images/Upper_limit_L.png" width="80"> | 2-Upper-Limit_L.stp | Aleación de aluminio 5052 | 1 | CNC | |
 | Tope superior R | <img src="./Metal_Parts/images/Upper_limit_R.png" width="80"> | 2-Upper-Limit_R.stp | Aleación de aluminio 5052 | 1 | CNC | |
