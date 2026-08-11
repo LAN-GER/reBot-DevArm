@@ -95,6 +95,7 @@ El arrastre prolongado del arnés de cableado del motor 1 puede desgastar el con
 | Pieza metálica derecha del Link3 | <img src="./Metal_Parts/images/Link3-Right-Metal.png" width="80"> | 2-LINK-3_4-R.step | Aleación de aluminio 5052 | 1 | CNC | |
 | Unión izquierda y derecha del Link3 | <img src="./Metal_Parts/images/Link3-Right-Left-Link.png" width="80"> | 2-SPACE-UP-2.step | Aleación de aluminio 5052 | 1 | CNC | |
 | Fijación de cables de los motores 4-7 | <img src="./Metal_Parts/images/Motor4_Cable_Fixing.png" width="80"> | 1-O-CLIP.step | Aleación de aluminio 5052 | 4 | CNC | Seeed Studio envía esta pieza como un único componente metálico mecanizado por CNC integrado con otra pieza, lo que encarece la fabricación. Si reproduces el hardware por tu cuenta, puedes imprimir esta pieza en 3D con ABS e instalar tuercas M2 en las posiciones marcadas con las flechas rojas. |
+| Motor4 Back Cable | <img src="./Metal_Parts/images/02_Motor_Back_Spacer.png" width="80"> | 2-Motor_Back_Spacer.step |Aleación de aluminio 5052 | 1 | CNC |  |
 | Link4-5_L | <img src="./Metal_Parts/images/Link4-5_L.png" width="80"> | 2-LINK-4_5-L.step | Aleación de aluminio 5052 | 1 | CNC | |
 | Link4-5_R | <img src="./Metal_Parts/images/Link4-5_R.png" width="80"> | 2-LINK-4_5-R.step | Aleación de aluminio 5052 | 1 | CNC | |
 | Link5 | <img src="./Metal_Parts/images/Link5.png" width="80"> | 2-RSM5-STATOR.step | Aleación de aluminio 5052 | 1 | CNC | |

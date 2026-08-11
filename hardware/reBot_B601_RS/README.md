@@ -96,6 +96,7 @@ Long-term dragging of Wiring Harness 1 may abrade the motor connector and result
 | Link3 Right Metal| <img src="./Metal_Parts/images/Link3-Right-Metal.png" width="80"> | 2-LINK-3_4-R.step | Aluminum Alloy 5052 | 1 | CNC | |
 | Link3 Right & Left Link | <img src="./Metal_Parts/images/Link3-Right-Left-Link.png" width="80"> | 2-SPACE-UP-2.step | Aluminum Alloy 5052 | 1 | CNC | |
 | Motor4-7 Cable Fixing | <img src="./Metal_Parts/images/Motor4_Cable_Fixing.png" width="80"> | 1-O-CLIP.step | Aluminum Alloy 5052 | 4 | CNC | Seeedstudio ships this part as a single CNC-machined metal component integrated with another part, which drives up manufacturing costs. If you reproduce the hardware on your own, you can 3D-print this part with ABS material and install M2 nuts at the positions marked by red arrows. |
+| Motor4 Back Cable | <img src="./Metal_Parts/images/02_Motor_Back_Spacer.png" width="80"> | 2-Motor_Back_Spacer.step | Aluminum Alloy 5052 | 1 | CNC |  |
 | Link4-5_L | <img src="./Metal_Parts/images/Link4-5_L.png" width="80"> | 2-LINK-4_5-L.step | Aluminum Alloy 5052 | 1 | CNC | |
 | Link4-5_R | <img src="./Metal_Parts/images/Link4-5_R.png" width="80"> | 2-LINK-4_5-R.step | Aluminum Alloy 5052 | 1 | CNC | |
 | Link5 | <img src="./Metal_Parts/images/Link5.png" width="80"> | 2-RSM5-STATOR.step | Aluminum Alloy 5052 | 1 | CNC | |
