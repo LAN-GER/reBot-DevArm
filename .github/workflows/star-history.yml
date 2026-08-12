@@ -7,32 +7,37 @@ on:
   workflow_dispatch:
 
 
+# Read-only by default; only the job that pushes gets write access.
 permissions:
-  contents: write
+  contents: read
+
+
+# A manual run must not race the scheduled one: both push to the default branch.
+concurrency:
+  group: star-history
+  cancel-in-progress: false
 
 
 jobs:
   star-history:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
 
+      # Third-party action: pinned to a full commit SHA rather than a branch or
+      # tag, both of which can be moved to point at different code. Dependabot
+      # (.github/dependabot.yml) reads the trailing version comment and opens a
+      # PR when a newer release is available.
+      #
+      # This step also commits and pushes the regenerated chart itself, rebasing
+      # onto the default branch first, so no separate commit step is needed.
       - name: Generate Star History Chart
-        uses: narayann7/star-history-action@main
+        uses: narayann7/star-history-action@a68d8f9d67ca20d55b682a264e69152dcf326e9c # v1.0.5
         with:
           repos: Seeed-Projects/reBot-DevArm
-
-
-      - name: Commit changes
-        run: |
-          git config --global user.name github-actions
-          git config --global user.email github-actions@github.com
-
-          git add assets/star-history/
-
-          git commit -m "Update star history chart" || exit 0
-
-          git push
