@@ -138,7 +138,7 @@ Si vous disposez d’une perceuse électrique ou d’outils similaires, vous pou
 
 | Nom | Spécification / Modèle | Quantité | Prix de référence | Notes |
 |------|----------|------|----------|------|
-| Moteur sans balais | DM4310(V4) | 4 | 120 $/unité | [SeeedStudio](https://www.seeedstudio.com/DIP-Servo-Motor-24V-120RPM-Brushless-98-9mm-4P-L56-W56-H46mm-p-6660.html) |
+| Moteur sans balais | DM4310(V4) | 4 | 120 $/unité | [SeeedStudio](https://www.seeedstudio.com/Damiao-4310-Actuator-Motor-p-6823.html) |
 | Moteur sans balais | DM4340P(V4) | 3 | 175 $/unité | [SeeedStudio](https://www.seeedstudio.com/DM4340P-Actuator-p-6663.html) |
 | Carte d’interface CAN-USB | - | 1 | 15 $/unité | [SeeedStudio](https://www.seeedstudio.com/DM-CAN-USB-Driver-Borad-p-6706.html) |
 | Palier | 6707ZZ | 1 | 13 $/unité | Amazon |

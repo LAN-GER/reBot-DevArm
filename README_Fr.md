@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Commercial-Contact%20Us-red.svg" alt="yaohui.zhu@seeed.cc">
     <img src="https://img.shields.io/badge/ROS-Noetic%20%7C%20Humble-orange.svg" alt="ROS Support">
     <img src="https://img.shields.io/badge/Framework-LeRobot-yellow.svg" alt="LeRobot">
-    <img src="https://img.shields.io/badge/Framework-Isaac Sim-yellow.svg" alt="LeRobot">
+    <img src="https://img.shields.io/badge/Framework-Isaac%20Sim-yellow.svg" alt="LeRobot">
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@
 <a href="https://discord.gg/AbGuqJhDpQ">
     <img src="https://img.shields.io/discord/1409155673572249672?color=7289DA&label=Discord&logo=discord&logoColor=white"></a>
 <a href="https://wiki.seeedstudio.com/robotics_page/">  
-    <img src="https://img.shields.io/badge/Documentation-📕-blue" alt="wiki robotique"></a>
+    <img src="https://img.shields.io/badge/Documentation-%F0%9F%93%95-blue" alt="wiki robotique"></a>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
         <big><b>&#x1F6D2; Amazon</b></big>
       </a>
       </a>
-        <a href="https://security.feishu.cn/link/safety?target=https%3A%2F%2Fde.aliexpress.com%2Fitem%2F1005012108314029.html%3FgatewayAdapt%3Dglo2deu&scene=ccm&logParams=%7B%22location%22%3A%22ccm_sheet%22%7D&lang=zh-CN&from=from_parent_docs"location"%3A"ccm_sheet"%7D&lang=zh-CN&from=from_parent_docs" target="_blank">
+        <a href="https://de.aliexpress.com/item/1005012108314029.html" target="_blank">
         <big><b>&#x1F6D2; Aliexpress</b></big>
       </a>
     </td>
@@ -112,7 +112,7 @@
   - **Kit complet** : comprend l'ensemble complet du corps du bras robotique et du préhenseur.
   - **Bras robotique préassemblé** : bras robotique fini et entièrement assemblé.
 
-- Le kit Seeedstudio ne comprend pas d'adaptateur d'alimentation ni de serre-joints en C comme accessoires standard. Cette configuration tient compte du fait que les utilisateurs peuvent alimenter l'unité avec des batteries ou la monter sur une base DIY personnalisée. Vous pouvez acheter séparément une [alimentation](https://www.seeedstudio.com/AC-DC-Power-Adapter-IEC-60320-C14-XT30-Female-24V-4-5A-1200mm-L190-W92-5-H36mm-p-6764.html) et un [cordon d'alimentation](https://www.seeedstudio.com/reServer-AC-US-p-5052.html), ou consulter la solution d'alimentation Mean Well indiquée en bas de notre [BOM](./hardware/reBot_B601_DM/readme.md/#about-power-supply).
+- Le kit Seeedstudio ne comprend pas d'adaptateur d'alimentation ni de serre-joints en C comme accessoires standard. Cette configuration tient compte du fait que les utilisateurs peuvent alimenter l'unité avec des batteries ou la monter sur une base DIY personnalisée. Vous pouvez acheter séparément une [alimentation](https://www.seeedstudio.com/AC-DC-Power-Adapter-IEC-60320-C14-XT30-Female-24V-4-5A-1200mm-L190-W92-5-H36mm-p-6764.html) et un [cordon d'alimentation](https://www.seeedstudio.com/reServer-AC-US-p-5052.html), ou consulter la solution d'alimentation Mean Well indiquée en bas de notre [BOM](./hardware/reBot_B601_DM/readme.md#about-power-supply).
 
 - Vous pouvez également acheter le [Leader Arm](https://www.seeedstudio.com/Star-Arm-102-p-6765.html?qid=P2U7IG_yskyak5m_1776415593315) et l'[alimentation 12V 10A](https://www.seeedstudio.com/FY1209900-12V-10A-Power-Adapter-12V-10A-p-6496.html). Vous pouvez aussi utiliser l'adaptateur d'alimentation 12 V CC du SO-ARM101 pour alimenter le Leader.
 
@@ -314,7 +314,7 @@ reBot-DevArm n’est pas seulement un bras robotique, mais une communauté d’a
 *   **🚗 Moteurs & servomoteurs** : [Damiao / Gogo / Robstride / Mita / Feite / Fashion Star](https://wiki.seeedstudio.com/robotics_page/)
 *   **👁️ Perception visuelle** : [Caméras de profondeur / LiDAR / algorithmes de vision](https://wiki.seeedstudio.com/robotics_page/)
 *   **👂 Interaction auditive** : [reSpeaker Mic Arrays/Voice Control/Spatial Awareness(DoA)](https://wiki.seeedstudio.com/control_rebot_arm_using_voice_with_respeaker_flex/)
-*   **🧭 Mouvement & attitude** : [IMU (6 axes/9 axes) / gyroscopes / magnétomètres](https://wiki.seeedstudio.com/Sensor/IMU/)
+*   **🧭 Mouvement & attitude** : [IMU (6 axes/9 axes) / gyroscopes / magnétomètres](https://wiki.seeedstudio.com/Sensor_accelerometer/)
 *   **🤖 Kits complets** : [Plus de capteurs robotiques & d’exemples de pilotes](https://wiki.seeedstudio.com/robotics_page/)
 
 

@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/badge/Commercial-Contact%20Us-red.svg" alt="yaohui.zhu@seeed.cc">
     <img src="https://img.shields.io/badge/ROS-Noetic%20%7C%20Humble-orange.svg" alt="Compatibilidad con ROS">
     <img src="https://img.shields.io/badge/Framework-LeRobot-yellow.svg" alt="LeRobot">
-    <img src="https://img.shields.io/badge/Framework-Isaac Sim-yellow.svg" alt="Isaac Sim">
+    <img src="https://img.shields.io/badge/Framework-Isaac%20Sim-yellow.svg" alt="Isaac Sim">
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@
 <a href="https://discord.gg/AbGuqJhDpQ">
     <img src="https://img.shields.io/discord/1409155673572249672?color=7289DA&label=Discord&logo=discord&logoColor=white"></a>
 <a href="https://wiki.seeedstudio.com/robotics_page/">  
-    <img src="https://img.shields.io/badge/Documentation-📕-blue" alt="wiki de robótica"></a>
+    <img src="https://img.shields.io/badge/Documentation-%F0%9F%93%95-blue" alt="wiki de robótica"></a>
 </p>
 
 <p align="center">
@@ -80,7 +80,7 @@
         <big><b>&#x1F6D2; Amazon</b></big>
       </a>
       </a>
-        <a href="https://security.feishu.cn/link/safety?target=https%3A%2F%2Fde.aliexpress.com%2Fitem%2F1005012108314029.html%3FgatewayAdapt%3Dglo2deu&scene=ccm&logParams=%7B%22location%22%3A%22ccm_sheet%22%7D&lang=zh-CN&from=from_parent_docs"location"%3A"ccm_sheet"%7D&lang=zh-CN&from=from_parent_docs" target="_blank">
+        <a href="https://de.aliexpress.com/item/1005012108314029.html" target="_blank">
         <big><b>&#x1F6D2; Aliexpress</b></big>
       </a>
     </td>
@@ -314,7 +314,7 @@ reBot-DevArm no es solo un brazo robótico, sino también una comunidad de apren
 *   **🚗 Motores y servos**: [Damiao / Gogo / Robstride / Mita / Feite / Fashion Star](https://wiki.seeedstudio.com/robotics_page/)
 *   **👁️ Percepción visual**: [Cámaras de profundidad / LiDAR / Algoritmos de visión](https://wiki.seeedstudio.com/robotics_page/)
 *   **👂 Interacción por voz**: [Matrices de micrófonos reSpeaker / Control por voz / Percepción espacial (DoA)](https://wiki.seeedstudio.com/control_rebot_arm_using_voice_with_respeaker_flex/)
-*   **🧭 Movimiento y actitud**: [IMU (6 ejes/9 ejes) / Giroscopios / Magnetómetros](https://wiki.seeedstudio.com/Sensor/IMU/)
+*   **🧭 Movimiento y actitud**: [IMU (6 ejes/9 ejes) / Giroscopios / Magnetómetros](https://wiki.seeedstudio.com/Sensor_accelerometer/)
 *   **🤖 Kits completos**: [Más sensores de robótica y ejemplos de drivers](https://wiki.seeedstudio.com/robotics_page/)
 
 

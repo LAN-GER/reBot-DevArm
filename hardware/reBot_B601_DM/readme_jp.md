@@ -136,7 +136,7 @@
 
 | 名前 | 仕様 / モデル | 数量 | 参考価格 | 注記 |
 |------|----------|------|----------|------|
-| ブラシレスモーター | DM4310(V4) | 4 | 120 $/unit | [SeeedStudio](https://www.seeedstudio.com/DIP-Servo-Motor-24V-120RPM-Brushless-98-9mm-4P-L56-W56-H46mm-p-6660.html) |
+| ブラシレスモーター | DM4310(V4) | 4 | 120 $/unit | [SeeedStudio](https://www.seeedstudio.com/Damiao-4310-Actuator-Motor-p-6823.html) |
 | ブラシレスモーター | DM4340P(V4) | 3 | 175 $/unit | [SeeedStudio](https://www.seeedstudio.com/DM4340P-Actuator-p-6663.html) |
 | CAN-USBドライバーボード | | 1 | 15 $/unit | [SeeedStudio](https://www.seeedstudio.com/DM-CAN-USB-Driver-Borad-p-6706.html) |
 | ベアリング | 6707ZZ | 1 | 13 $/unit | [Amazon](https://www.amazon.com/uxcell-35x44x5mm-Shielded-Precision-Lubricated/dp/B0D6WBMW3F/ref=sr_1_1) |
