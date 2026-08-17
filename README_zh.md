@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Commercial-Contact%20Us-red.svg" alt="yaohui.zhu@seeed.cc">
     <img src="https://img.shields.io/badge/ROS-Noetic%20%7C%20Humble-orange.svg" alt="ROS Support">
     <img src="https://img.shields.io/badge/Framework-LeRobot-yellow.svg" alt="LeRobot">
-    <img src="https://img.shields.io/badge/Framework-Isaac Sim-yellow.svg" alt="LeRobot">
+    <img src="https://img.shields.io/badge/Framework-Isaac%20Sim-yellow.svg" alt="LeRobot">
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@
 <a href="https://discord.gg/AbGuqJhDpQ">
     <img src="https://img.shields.io/discord/1409155673572249672?color=7289DA&label=Discord&logo=discord&logoColor=white"></a>
 <a href="https://wiki.seeedstudio.com/robotics_page/">  
-    <img src="https://img.shields.io/badge/Documentation-📕-blue" alt="robotics wiki"></a>
+    <img src="https://img.shields.io/badge/Documentation-%F0%9F%93%95-blue" alt="robotics wiki"></a>
 </p>
 
 <p align="center">
@@ -101,7 +101,7 @@
 
   中国：[淘宝矽递科技旗舰店](https://detail.tmall.com/item.htm?app=chrome&bxsign=scdlw5VjXYQhfgOyva6IEit8asOyaYSFE5I3VXYy3VPlmlREIPF350GWGqrQeFq6zMR0LYTFVDN1CYDrBsUaYz-4JxcTqiZF-HQ6NUldhIWqF4BZVDgneY0XNmbgokb1mXQ&cpp=1&id=1042412233386&price=8295&shareUniqueId=35714007536&share_crt_v=1&shareurl=true&short_name=h.iLxfDpYMNSysFIa&sourceType=item%2Citem&sp_tk=UGU1SzU2ZmJVdE8%3D&spm=a2159r.13376460.0.0&suid=f2c61ac8-e0ca-45d0-b100-75210b69b5b9&tbSocialPopKey=shareItem&tk=Pe5K56fbUtO&un=1a387738ed21d73a0f8768acc41474bb&un_site=0&ut_sk=1.aduVZSGbgvEDAPW0%2BMUyPBgR_21646297_1776313782940.Copy.1&wxsign=tbwGGBQEcYglkjQ8Bb9ce0nY3n0Lt2A0LqWv5fIH-2gpBWlQr1YAclOKyIimOONlUMdMNexbYhHL1BfCn7tnsbQlmgAwPGYNzFYFGNmitXbVMMtxoW1WB68Oux3DSBGem9OWTXZB4ARF_FuruhSrejI1g)
   
-Seeedstudio套件出货默认不带电源适配器和C型木工夹是考虑大家可能会用电池供电及DIY底座进行固定，当然你可以额外单独购买电源或者参考我们的[BOM最下面的明纬电源方案](./hardware/reBot_B601_DM/readme_zh.md/#关于电源)
+Seeedstudio套件出货默认不带电源适配器和C型木工夹是考虑大家可能会用电池供电及DIY底座进行固定，当然你可以额外单独购买电源或者参考我们的[BOM最下面的明纬电源方案](./hardware/reBot_B601_DM/readme_zh.md#关于电源)
 
 -----------------------------
 
@@ -296,7 +296,7 @@ reBot-DevArm 不仅仅是一个机械臂，更是一个机器人学习社区。�
 *   **🚗 电机舵机**：[达妙 / 高擎 / 灵足 / 脉塔 / 飞特 / 华馨京](https://wiki.seeedstudio.com/robotics_page/)
 *   **👁️ 视觉感知**：[深度相机 / 激光雷达 / 视觉算法](https://wiki.seeedstudio.com/robotics_page/)
 *   **👂  听觉交互**：[ReSpeaker 麦克风阵列 / 语音识别](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/)
-*   **🧭 运动姿态**：[IMU (6轴/9轴) / 陀螺仪 / 磁力计](https://wiki.seeedstudio.com/Sensor/IMU/)
+*   **🧭 运动姿态**：[IMU (6轴/9轴) / 陀螺仪 / 磁力计](https://wiki.seeedstudio.com/Sensor_accelerometer/)
 *   **🤖 综合套件**：[更多机器人传感器与驱动案例](https://wiki.seeedstudio.com/robotics_page/)
 
 

@@ -1,0 +1,53 @@
+name: Check Documentation Links
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".lycheeignore"
+      - ".github/workflows/link-check.yml"
+
+  # Purchase pages get relisted and wiki paths get reorganised without anything
+  # in this repository changing, so the docs also need checking on a timer.
+  schedule:
+    - cron: "0 6 * * 1"
+
+  workflow_dispatch:
+
+
+permissions:
+  contents: read
+
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      # --root-dir is required: the READMEs link to repository-root paths such
+      # as /hardware/... and /community/..., which would otherwise resolve
+      # against the filesystem root.
+      #
+      # 403 and 429 are accepted because several stores answer datacentre IPs
+      # that way; a delisted product still answers 404, which is what this job
+      # is looking for. Hosts that block CI outright live in .lycheeignore.
+      - name: Check links in Markdown files
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept 200,206,403,429
+            --root-dir "$(pwd)"
+            './**/*.md'
+          fail: true
+          jobSummary: true

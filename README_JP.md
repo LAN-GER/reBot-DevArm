@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Commercial-Contact%20Us-red.svg" alt="yaohui.zhu@seeed.cc">
     <img src="https://img.shields.io/badge/ROS-Noetic%20%7C%20Humble-orange.svg" alt="ROS Support">
     <img src="https://img.shields.io/badge/Framework-LeRobot-yellow.svg" alt="LeRobot">
-    <img src="https://img.shields.io/badge/Framework-Isaac Sim-yellow.svg" alt="LeRobot">
+    <img src="https://img.shields.io/badge/Framework-Isaac%20Sim-yellow.svg" alt="LeRobot">
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@
 <a href="https://discord.gg/AbGuqJhDpQ">
     <img src="https://img.shields.io/discord/1409155673572249672?color=7289DA&label=Discord&logo=discord&logoColor=white"></a>
 <a href="https://wiki.seeedstudio.com/robotics_page/">  
-    <img src="https://img.shields.io/badge/Documentation-📕-blue" alt="ロボティクス wiki"></a>
+    <img src="https://img.shields.io/badge/Documentation-%F0%9F%93%95-blue" alt="ロボティクス wiki"></a>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
         <big><b>&#x1F6D2; Amazon</b></big>
       </a>
       </a>
-        <a href="https://security.feishu.cn/link/safety?target=https%3A%2F%2Fde.aliexpress.com%2Fitem%2F1005012108314029.html%3FgatewayAdapt%3Dglo2deu&scene=ccm&logParams=%7B%22location%22%3A%22ccm_sheet%22%7D&lang=zh-CN&from=from_parent_docs"location"%3A"ccm_sheet"%7D&lang=zh-CN&from=from_parent_docs" target="_blank">
+        <a href="https://de.aliexpress.com/item/1005012108314029.html" target="_blank">
         <big><b>&#x1F6D2; Aliexpress</b></big>
       </a>
     </td>
@@ -113,7 +113,7 @@
   - **フルキット**：ロボットアーム本体とグリッパーの完全なセットを含みます。
   - **組立済みロボットアーム**：完全に組み立てられた完成品のロボットアームです。
 
-- Seeedstudioキットには、標準付属品として電源アダプターおよびC型クランプは含まれていません。これは、ユーザーがバッテリーで給電したり、カスタムDIYベースに取り付けたりする可能性を考慮したものです。別途 [電源](https://www.seeedstudio.com/AC-DC-Power-Adapter-IEC-60320-C14-XT30-Female-24V-4-5A-1200mm-L190-W92-5-H36mm-p-6764.html) と [電源コード](https://www.seeedstudio.com/reServer-AC-US-p-5052.html) を購入するか、[BOM](./hardware/reBot_B601_DM/readme.md/#about-power-supply) の末尾に記載されている Mean Well 電源ソリューションを参照してください。
+- Seeedstudioキットには、標準付属品として電源アダプターおよびC型クランプは含まれていません。これは、ユーザーがバッテリーで給電したり、カスタムDIYベースに取り付けたりする可能性を考慮したものです。別途 [電源](https://www.seeedstudio.com/AC-DC-Power-Adapter-IEC-60320-C14-XT30-Female-24V-4-5A-1200mm-L190-W92-5-H36mm-p-6764.html) と [電源コード](https://www.seeedstudio.com/reServer-AC-US-p-5052.html) を購入するか、[BOM](./hardware/reBot_B601_DM/readme.md#about-power-supply) の末尾に記載されている Mean Well 電源ソリューションを参照してください。
 
 - [Leader Arm](https://www.seeedstudio.com/Star-Arm-102-p-6765.html?qid=P2U7IG_yskyak5m_1776415593315) と [12V 10A 電源](https://www.seeedstudio.com/FY1209900-12V-10A-Power-Adapter-12V-10A-p-6496.html) も購入できます。SO-ARM101 の12VDC電源アダプターを使用して Leader に給電することもできます。
 
@@ -311,7 +311,7 @@ reBot-DevArm は単なるロボットアームではなく、ロボティクス�
 *   **🚗 モーター & サーボ**: [Damiao / Gogo / Robstride / Mita / Feite / Fashion Star](https://wiki.seeedstudio.com/robotics_page/)
 *   **👁️ ビジュアル知覚**: [深度カメラ / LiDAR / ビジョンアルゴリズム](https://wiki.seeedstudio.com/robotics_page/)
 *   **👂 音声インタラクション**: [reSpeaker Mic Arrays/Voice Control/Spatial Awareness(DoA)](https://wiki.seeedstudio.com/control_rebot_arm_using_voice_with_respeaker_flex/)
-*   **🧭 動作 & 姿勢**: [IMU（6軸/9軸） / ジャイロスコープ / 磁力計](https://wiki.seeedstudio.com/Sensor/IMU/)
+*   **🧭 動作 & 姿勢**: [IMU（6軸/9軸） / ジャイロスコープ / 磁力計](https://wiki.seeedstudio.com/Sensor_accelerometer/)
 *   **🤖 総合キット**: [その他のロボティクスセンサー & ドライバ例](https://wiki.seeedstudio.com/robotics_page/)
 
 

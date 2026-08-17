@@ -1,0 +1,22 @@
+# Links excluded from the documentation link check (.github/workflows/link-check.yml).
+# One regular expression per line.
+#
+# These hosts serve a bot challenge, a login wall or an outright block to
+# datacentre IP ranges, so a GitHub-hosted runner cannot tell a live page from
+# a dead one. They are excluded to keep the check honest rather than red.
+
+# Marketplaces with aggressive bot protection
+^https?://([a-z0-9-]+\.)*amazon\.[a-z.]+/
+^https?://([a-z0-9-]+\.)*aliexpress\.[a-z.]+/
+^https?://([a-z0-9-]+\.)*taobao\.com/
+^https?://([a-z0-9-]+\.)*tmall\.com/
+
+# Social platforms that require a session to serve post pages
+^https?://([a-z0-9-]+\.)*x\.com/
+^https?://([a-z0-9-]+\.)*twitter\.com/
+^https?://([a-z0-9-]+\.)*linkedin\.com/
+^https?://([a-z0-9-]+\.)*instagram\.com/
+^https?://([a-z0-9-]+\.)*kaggle\.com/
+
+# Invite links answer 405 to anything that is not a browser
+^https?://discord\.gg/
