@@ -131,6 +131,7 @@ reBot机械臂RS版本在[矽递科技电商平台](https://detail.tmall.com/ite
 | **Isaac Sim 仿真** | 🚧 进行中 | 导入USD模型并实现仿真遥操作 | [由于添加额外课程延迟： 2026.06.20]|
 | **LeRobot 适配** |  ✅ 完成  | 适配 Hugging Face LeRobot 训练框架 | [reBot Arm B601-DM Lerobot使用教程](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_lerobot/)|
 | **深度相机集成** | ✅ 完成 | 基于 YOLO 与深度相机的视觉夹取演示 | [reBot Arm B601-DM 视觉夹取 Demo](https://wiki.seeedstudio.com/cn/rebot_arm_b601_dm_grasping_demo/) |
+| **reSpeaker 语音集成** | ✅ 完成 | 加入 reSpeaker Flex 4 麦克风阵列，构建具备空间感知能力的语音驱动智能机械臂控制系统 | [reBot Arm B601-DM 语音控制](https://wiki.seeedstudio.com/cn/control_rebot_arm_using_voice_with_respeaker_flex/) |
 | **逐步更新最新算法** | ⏳ 计划中 | 逐步更新主流算法 | 持续进行 |
 | **推出系列完全免费课程** | ⏳ 计划中 | 逐步更新主流算法 | 持续进行 |
 
@@ -147,7 +148,7 @@ reBot机械臂RS版本在[矽递科技电商平台](https://detail.tmall.com/ite
 | **LeRobot 适配** |  ✅ 完成 | 适配 Hugging Face LeRobot 训练框架 | [reBot Arm B601-RS入门Lerobot](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_lerobot/)|
 | **Pinocchio 适配** | ✅ 完成 | 适配 Pinocchio框架、实现机械臂正逆运动学及动力学重力补偿功能 |[reBot Arm B601-DM 的 Pinocchio 与 MeshCat 入门指南](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_pinocchio_meshcat/) 以及 [Github 控制代码](https://github.com/vectorBH6/reBotArm_control_py)|
 | **深度相机集成** | ✅ 完成 | 基于 YOLO 与深度相机的视觉夹取演示 | [reBot Arm B601-RS 视觉夹取 Demo](https://wiki.seeedstudio.com/cn/rebot_arm_b601_rs_grasping_demo/) |
-| **Isaac Sim 仿真** | ⏳ 计划中 | 导入USD模型并实现仿真遥操作 | [源代码](https://github.com/Seeed-Projects/reBot-Isaacsim)|
+| **Isaac Sim 仿真** | ✅ 完成 | 导入USD模型并实现仿真遥操作 | [源代码](https://github.com/Seeed-Projects/reBot-Isaacsim)|
 | **逐步更新最新算法** | ⏳ 计划中 | 逐步更新主流算法 | 持续进行 |
 | **推出系列完全免费课程** | ⏳ 计划中 | 逐步更新主流算法 | 持续进行 |
 
@@ -163,7 +164,7 @@ reBot-DevArm 专为桌面级具身智能应用设计，兼顾了负载能力与�
 | :--- | :--- | :--- |
 | **工作负载 (Payload)** | 1.5kg | **2.5kg** |
 | **推荐工作空间** | 70%臂展工作空间 | 70%臂展工作空间 |
-| **最大臂展 (Reach)** | 650 mm | **754 mm** |
+| **最大臂展 (Reach)** | 767 mm | **754 mm** |
 | **自重 (Weight)** | **约 4.5 kg** |约 6.7 kg |
 | **重复定位精度** | < 0.2 mm | < 0.2 mm |
 | **自由度 (DOF)** | 6 DOF + 1 夹爪|6 DOF + 1 夹爪|
