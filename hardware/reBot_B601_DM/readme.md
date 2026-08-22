@@ -77,6 +77,12 @@ Long-term dragging of Wiring Harness 1 may abrade the motor connector and result
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | Wiring Harness Clips for Two Sides of Motor 1 | <img src="./3D_Printed_Parts/images/DM_Motor1_wiring_harness_clip.jpg" width="80"> | `DM_Motor1_wiring_harness_clip.stp` | Bambu Lab Black ABS | 2 | 0.4 mm nozzle, 0.2 mm layer height, 30% infill |
 
+## 📷 Compatible Camera Mount
+
+| Part Description | Image | File Name | Material | Qty | Notes |
+|----------|------|--------|------|----------|------|
+| [Orbbec Gemini2](https://www.seeedstudio.com/Orbbec-Gemini-2-3D-Camera-p-6464.html) | <img src="./3D_Printed_Parts/images/Gemini2_mount.png" width="80"> | [`D435_Gemini2_Mount.step`](./3D_Printed_Parts/D435_Gemini2_Mount.step) | Bambu ABS Black | 1 | 0.4mm Nozzle, 0.2mm Layer Height, 30% Infill |
+
 ### 🧩 Printing Recommendations
 - Layer height: 0.2 mm
 - Nozzle: 0.4 mm

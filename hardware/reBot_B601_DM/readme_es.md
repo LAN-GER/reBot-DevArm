@@ -77,6 +77,12 @@ El roce continuado del arnés de cableado del motor 1 puede desgastar el conecto
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | Clips de arnés de cableado para ambos lados del motor 1 | <img src="./3D_Printed_Parts/images/DM_Motor1_wiring_harness_clip.jpg" width="80"> | `DM_Motor1_wiring_harness_clip.stp` | ABS Bambu Lab negro | 2 | boquilla de 0.4 mm, altura de capa de 0.2 mm, relleno del 30% |
 
+## 📷 Soporte de cámara compatible
+
+| Descripción de la pieza | Imagen | Nombre de archivo | Material | Cant. | Notas |
+|----------|------|--------|------|----------|------|
+| [Orbbec Gemini2](https://www.seeedstudio.com/Orbbec-Gemini-2-3D-Camera-p-6464.html) | <img src="./3D_Printed_Parts/images/Gemini2_mount.png" width="80"> | [`D435_Gemini2_Mount.step`](./3D_Printed_Parts/D435_Gemini2_Mount.step) | Bambu ABS Negro | 1 | Boquilla 0.4 mm, altura de capa 0.2 mm, relleno 30 % |
+
 ### 🧩 Recomendaciones de impresión
 - Altura de capa: 0.2 mm
 - Boquilla: 0.4 mm

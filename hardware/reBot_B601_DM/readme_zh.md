@@ -71,7 +71,7 @@
 
 |  零件描述 | 图片 | 文件名 | 材料 | 数量 | 备注 |
 |----------|------|--------|------|----------|------|
-| Orbbec Gemini2相机 | <img src="./3D_Printed_Parts/images/Gemini2_mount.png" width="80"> | `Gemini2_mount.step` | 拓竹 ABS 黑色  |  1 |  0.4喷嘴 0.2层高 30%填充 |
+| Orbbec Gemini2相机 | <img src="./3D_Printed_Parts/images/Gemini2_mount.png" width="80"> | [`D435_Gemini2_Mount.step`](./3D_Printed_Parts/D435_Gemini2_Mount.step) | 拓竹 ABS 黑色  |  1 |  0.4喷嘴 0.2层高 30%填充 |
 
 
 ### 🧩 打印建议
