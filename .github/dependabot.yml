@@ -1,0 +1,13 @@
+version: 2
+
+updates:
+  # Keeps the SHA-pinned actions in .github/workflows current. Without this,
+  # pinning to a commit means security fixes upstream are never picked up.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
