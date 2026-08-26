@@ -80,7 +80,7 @@
 
 | 部品説明 | 画像 | ファイル名 | 材料 | 数量 | 注記 |
 |----------|------|--------|------|----------|------|
-| [Orbbec Gemini2](https://www.seeedstudio.com/Orbbec-Gemini-2-3D-Camera-p-6464.html) | <img src="./3D_Printed_Parts/images/Gemini2_mount.png" width="80"> | Gemini2_mount.step | Bambu ABS Black | 1 | 0.4mmノズル、0.2mmレイヤー高さ、30%インフィル |
+| [Orbbec Gemini2](https://www.seeedstudio.com/Orbbec-Gemini-2-3D-Camera-p-6464.html) | <img src="./3D_Printed_Parts/images/Gemini2_mount.png" width="80"> | [`D435_Gemini2_Mount.step`](./3D_Printed_Parts/D435_Gemini2_Mount.step) | Bambu ABS Black | 1 | 0.4mmノズル、0.2mmレイヤー高さ、30%インフィル |
 
 ### 🧩 印刷推奨事項
 - レイヤー高さ: 0.2 mm
@@ -175,10 +175,63 @@
 本ロボットアームは標準で電源が付属しておりません。お手持ちのバッテリーを接続するか、台湾製の信頼性の高い**24V 14.6A MeanWell製電源**を別途ご購入ください。
 加えて、現地基準に適合した3ピンプラグ、及びXT30メスコネクタ付き配線ハーネスもご用意いただく必要があります。
 
-| 名称 | 仕様/型式 | 数量 | 参考価格 | 備考 |
-|------|----------|------|----------|------|
-| 電源装置 | 24V 14.6A | 1個 | 30ドル | [Amazon](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12/ref=sr_1_1?crid=2559HZMZF6ZUS&dib=eyJ2IjoiMSJ9.vpZwmjb4m5KMNcsg2Kb7wtfqG-A8US11Eaq0B9JOtKBwPyL6ZyUXh5oUrc5lyVLibya9NQ3n4OUjZ1INKKXLtwJWsRJbA_cPohVKu19q3esXrAY8YFpA4teehMNx3zdrt_WhXZyo1zxQUEHgh558m0vuZ0G1KjW3Rk9LOUVn0olRD-nnyvOwhNycxZqoO9KHkTt4q3kkDNEtn_iAH3x1C6wSv97gxI3nFKhXETsCou11G6_97-PJwk6cEkm2aOT2Yg-xm-uYfNMg85_QRFEDdsY-yeC_8n55d_auTSqqc38.SwYH_qOo0fEt9xkz_H6RWeZ78kxrOs9QKhGEKhmfRBs&dib_tag=se&keywords=Power+supply+24V+14.6A&qid=1774772552&s=industrial&sprefix=power+supply+24v+14.6a%2Cindustrial%2C333&sr=1-1) |
-| 電源ケーブル | 12AWG | 1本 | 30ドル | [Amazon](https://www.amazon.com/Pinfox-Universal-Appliance-Replacement-Pigtail/dp/B0F5PW5SJG/ref=sr_1_6?crid=1EIU51YZCRLT9&dib=eyJ2IjoiMSJ9.SAX2wYEran7eecwu4SDFfugT8z0m8kjFOv972WAv1aoYMTB-us_RgARfoKz3G9hpFqw3p4dtTfzyPzH-pQoitReEJ_DMB-xmLUg3nA3uRNNmYF9Zl9d9iX6yCcU6lCpE_GL9-oqRlTC4A2t1--_88yskpiLLBpx50I08Ze8ql2L6fVikg6k6wx6rTvhpLEHZHqDyITCApEDPPygOu4x8BkY68RpMAM1_Fsd_1M-GMb0YlT2p2u6ywbO08KJg0c3QMfTApauxKjB5INgnxKV9EspudalX0FbQUF1DBc8Fh7s.jtylu4ii8VEhu1FJG6P7h6vw5M7rNci4iQPj8IhOfr8&dib_tag=se&keywords=Power%2BCable&qid=1774772590&s=industrial&sprefix=power%2Bcab%2Cindustrial%2C413&sr=1-6&th=1) |
-| 電源ケーブル | XT30 16AWG | 1本 | 9ドル | [Amazon](https://www.amazon.com/RioRand-Connector-Pigtail-Silicone-Aircraft/dp/B0FY2ZCR83/ref=sr_1_8?crid=1I8XB5AF5YIPA&dib=eyJ2IjoiMSJ9.8Cx4Olln9I8dGnZGL6MRb6AdEsUY70emHKd_NuuvYCBdrZWbUbSmWDDnYirfmFQVEexy0_clLKn2bi2DcGzjf_OEu1RM9j71jZ0-eL2Hgr0AOzFRl06OY7dQE0eMIXesWqJhHUkUoQFTA6EIegYoIUURzHkZAbT3CZyTpQoWYHOfVECyAsKDsKLoekybImOwDe1X9Ub4vawG56Ov7nBLWXf81DpwV-bH9H0kM1jTJaacHHII9eFWdd-50tChIRSI6Ld0kUIvOqbWOWHMshFgK7lHSa76icMJwJOZaruti0c.erWlQgcCcuEDYLFVqRIp7CpmiONST0SMW8W1OT-OnMg&dib_tag=se&keywords=XT30%2B14awg&qid=1774772667&s=industrial&sprefix=xt30%2B14a%2Cindustrial%2C350&sr=1-8&th=1) |
+#### 消耗品BOM
+
+| 名称 | 仕様 | 数量 | 参考価格 | 備考 | 画像 |
+|:---|:---|:---:|:---:|:---|:---:|
+| 電源装置 | LRS-350-24 (24V 14.6A) | 1 | 27.35ドル | [amazon](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12/ref=sr_1_1?crid=36B2HIB8MM2IT&dib=eyJ2IjoiMSJ9.vpZwmjb4m5KMNcsg2Kb7wr8DDWa-ryUqO5fConlxqlsGoTVB5HN2uBBnRNZI0kcACiaR5DKFiYWvIHLEUN3luZqJAzogeQkeT-fol0m835-oBBWSud1ixkGayrl5nRsF5KMgfvkwAIW949dTTpU2CWdNMrf8g43_vKWaytfX9SHeMJ1hmhS6Kab6fBgER6CgB47K_eEmoJj3KhrjJMtn980osDG-bCLniBcRAHThmXsVRVdpGPsmckGLLyaXrIGRG9plhKI-F7H8hfqW7vzGbwIV_bF8cFtRjdRm5Shtb0o.ekLYD0hsc1Uzji4qKl0Q0USpDTr92JEMQobBXl9lYD0&dib_tag=se&keywords=LRS-350-24&qid=1780021690&s=industrial&sprefix=lrs-350-24%2Cindustrial%2C696&sr=1-1&th=1) | <img src="./Purchased_Parts/LRS-350-24.png" width="80"> |
+| 電源コード | 米国規格ACケーブル | 1 | 4.49ドル | [amazon](https://www.amazon.com/LIFEPOE-Power-3-3ft-Black-3-Prong/dp/B0FK4KPW2G/ref=sr_1_1?crid=2W5766PT8EOKA&dib=eyJ2IjoiMSJ9.7E5s-9-Zh-jJAdni-17Iyt1Mr3GJD6hMt9pfk-0S5YxZtknZik9OiePitwUom0pYUbePRpdqa0dCZtGUjluQDEJbSDePHCGvBV6bwQU7wfwd0Loo4WJJmH_2CM1KRKSPcxHXRH0i1i5yuy4g7fDxxn3nPGYU3aF00m5jiIkMfYFgOxH4yURjjZeTMZAIO9wiVQUsPrlM51UIgpPo2YYdCQVUsxjumSsTAm0Jpt2SsBEdT-QzXSIKpLSvQ6kGijXF-4ZevaxiShJdmwU8t2LobDLcalXEOl3lriZTGhjwxow.r0oBabUkGwewhvO3IKlBMULdhUSe6yNTsjfFUaBsjyU&dib_tag=se&keywords=US%2BStandard%2BAC%2BCable%3B%2B1.5m%2B-%2B3%2B*%2B1.5mm%C2%B2&nsdOptOutParam=true&qid=1780021862&s=industrial&sprefix=lrs-350-24%2Cindustrial%2C387&sr=1-1&th=1) | <img src="./Purchased_Parts/US Standard AC Cable.png" width="80"> |
+| 出力ポート | XT60E 固定メスコネクタ／XT60E メス＋圧着端子 - 10cm／端子穴 4mm | 1 | 9.99ドル | [amazon](https://www.amazon.com/LINSYRC-XT60E-F-Connector-Battery-Quadcopter/dp/B0CQK1P1DP/ref=pd_sbs_d_sccl_1_2/133-3898271-3474923?pd_rd_w=FmCVA&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=03QM0MRVZA968N9X6X6E&pd_rd_wg=WOZ9q&pd_rd_r=6e0577d2-de73-4427-affd-a271808e1453&pd_rd_i=B0CQK1P1DP&psc=1) | <img src="./Purchased_Parts/XT60E Female to Copper Lug Pigtail.png" width="80"> |
+| AC電源配線 | 1.5mm²、赤・青・黄 各1本（端子はご自身で圧着してください。圧着済みリード線は付属しません）、10cm | 3 | 0.99ドル | [aliexpress](https://www.aliexpress.com/item/1005008648016252.html?spm=a2g0o.productlist.main.2.15c9ZpluZpluHP&algo_pvid=09efee83-d80c-4ece-b588-3b1ef73279a3&algo_exp_id=09efee83-d80c-4ece-b588-3b1ef73279a3-1&pdp_ext_f=%7B%22order%22%3A%22230%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.58%210.99%21%21%2124.09%216.65%21%400b0b305117800339070873795e0f3d%2112000046086542230%21sea%21US%216593543849%21ABX%211%210%21n_tag%3A-29910%3Bd%3A518b3f9d%3Bm03_new_user%3A-29895%3BpisId%3A5000000207178484&curPageLogUid=74aJ9L7lm7hs&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008648016252%7C_p_origin_prod%3A&gatewayAdapt=4itemAdapt) | <img src="./Purchased_Parts/RV Grounding Wire Coil with Y-Terminal Lugs.png" width="80"> |
+| 三合一 IEC インレットソケット | 赤色スイッチ付きクイックコネクトタイプ（ダブルナット） | 1 | 1.98ドル | [aliexpress](https://www.aliexpress.com/item/1005005962021242.html?spm=a2g0o.imagesearchproductlist.main.17.7db7cZZdcZZdCY&algo_pvid=270b0987-1973-41ad-a2b9-6fe008f9edb5&algo_exp_id=270b0987-1973-41ad-a2b9-6fe008f9edb5&pdp_ext_f=%7B%22order%22%3A%22346%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.31%211.98%21%21%2122.30%2113.35%21%400b0b305117800327806706342e118f%2112000035062406338%21sea%21US%216593543849%21ABX%211%210%21n_tag%3A-29910%3Bd%3A518b3f9d%3Bm03_new_user%3A-29895%3BpisId%3A5000000204886261&curPageLogUid=87JUDbPbch2i&utparam-url=scene%3Aimage_search%7Cquery_from%3Apc_web_image_search%7Cx_object_id%3A1005005962021242%7C_p_origin_prod%3A) | <img src="./Purchased_Parts/3-in-1 IEC Inlet Socket.png" width="80"> |
+| XT30-XT60 変換ケーブル | XT30U メス - XT60 オス | 1 | 8.99ドル | [amazon](https://www.amazon.com/dp/B0BY8PSHK6?th=1) | <img src="./Purchased_Parts/XT30U_female_to_XT60_male.png" width="80"> |
+| 304ステンレス 十字穴付き皿ねじ | M4x6 | 6 | 0.37ドル | / | / |
+| 304ステンレス 十字穴付き皿ねじ | M3x8 | 2 | 0.36ドル | / | / |
+| 304ステンレス 十字穴付きなべねじ | M3x8 | 2 | 0.32ドル | / | / |
+| 六角ナット | M3x2.5 | 2 | 2.10 CNY | / | / |
+
+
+#### プリント部品BOM
+
+| 名称 | 画像 | 数量 | 備考 |
+|:---|:---|:---:|:---|
+| [フロントカバー](./3D_Printed_Parts/DM-power-Top%20Cover.stp) | <img src="./3D_Printed_Parts/images/DM-power-Top Cover.png" width="80"> | 1 | PLA、0.4mmノズル、0.2mmレイヤー高さ、30%インフィル |
+| [リアカバー](./3D_Printed_Parts/DM-power-Bottom%20Cover.stp) | <img src="./3D_Printed_Parts/images/DM-power-Bottom Cover.png" width="80"> | 1 | PLA、0.4mmノズル、0.2mmレイヤー高さ、30%インフィル |
+| [フロントカバー スライドカバー](./3D_Printed_Parts/DM-power-Top%20Cover-Sliding%20Cover.stp) | <img src="./3D_Printed_Parts/images/DM-power-Top Cover-Sliding Cover.png" width="80"> | 1 | PLA、0.4mmノズル、0.2mmレイヤー高さ、30%インフィル |
+
+#### 電源の組み立て
+
+電源の組み立ては、フロントカバーとリアカバーの二つの工程に分かれます。
+
+##### 1. フロントカバーの組み立て
+
+| Step | 操作手順 | 画像 | 備考 |
+|:---:|---|---|---|
+| 1-1 | フロントカバーの組み立てに必要な部品とプリント部品を準備する | <img src="./Assembly_Steps/powerstep_images/1-1.png" width="80"> | 部品がすべて揃っているか確認してください |
+| 1-2 | 各部品の結線順序の説明。結線順序に従って組み立てる | <img src="./Assembly_Steps/powerstep_images/1-2(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-2(2).png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-2(3).png" width="80"> | 必ず結線順序どおりに接続してください |
+| 1-3 | XT60 コネクタを取り付ける | <img src="./Assembly_Steps/powerstep_images/1-3(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-3(2).png" width="80"> | 304ステンレス十字穴付き皿ねじ M3x8 と六角ナット M3x2.5 で固定します |
+| 1-4 | 三合一 IEC ソケットを取り付ける | <img src="./Assembly_Steps/powerstep_images/1-4(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-4(2).png" width="80"> | 三合一 IEC ソケットを304ステンレス十字穴付きなべねじ M3x8 で固定します |
+| 1-5 | フロントカバー内部の配線 | <img src="./Assembly_Steps/powerstep_images/1-5(1).png" width="80"><br><img src="./Assembly_Steps/powerstep_images/1-5(2).png" width="80"> | 結線順序図と照らし合わせて接続を確認してください |
+| 1-6 | フロントカバーと電源の両側を固定する | <img src="./Assembly_Steps/powerstep_images/1-6(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-6(2).png" width="80"> | 304ステンレス十字穴付き皿ねじ M4x6 ×2 |
+| 1-7 | スライドカバーを取り付ける | <img src="./Assembly_Steps/powerstep_images/1-7(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/1-7(2).png" width="80"> | 電源の下側から差し込みます |
+| 1-8 | スライドカバーを固定する | <img src="./Assembly_Steps/powerstep_images/1-8.png" width="80"> | 304ステンレス十字穴付き皿ねじ M4x6 ×2 |
+
+---
+
+##### 2. リアカバーの組み立て
+
+| Step | 操作手順 | 画像 | 備考 |
+|:---:|---|---|---|
+| 2-1 | リアカバーの組み立てに必要な部品とプリント部品を準備する | <img src="./Assembly_Steps/powerstep_images/2-1.png" width="80"> | 付属品がすべて揃っているか確認してください |
+| 2-2 | リアカバーと電源を組み合わせる | <img src="./Assembly_Steps/powerstep_images/2-2.png" width="80"> | 位置を合わせてください |
+| 2-3 | リアカバーと電源の両側を固定する | <img src="./Assembly_Steps/powerstep_images/2-3(1).png" width="80" style="margin-right:4%;"><img src="./Assembly_Steps/powerstep_images/2-3(2).png" width="80"> | 304ステンレス十字穴付き皿ねじ M4x6 ×2 |
+
+---
+
+##### 3. 組み立て完了
+
+| Step | 操作手順 | 画像 | 備考 |
+|:---:|---|---|---|
+| 1 | 電源ソリューションの組み立てが完了しました | <img src="./Assembly_Steps/powerstep_images/3.png" width="80"> | すべてのねじが締まっているか確認してください |
 
 ---
