@@ -197,7 +197,7 @@ reBot-DevArm は、デスクトップ向け Embodied AI アプリケーション
 | --- | --- | --- | --- |  --- | 
 | [From hei-rebot-lift](https://github.com/lipengdong/hei-rebot-lift) | [From Martin Kemka](https://www.linkedin.com/posts/activity-7484390995862781952-TX4m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)| [From Kamil Buczyński](https://www.linkedin.com/posts/kamil-buczy%C5%84ski-102843301_seeedstudio-rebotarm-seeedprojectofthemonth-ugcPost-7485297094715461633-RV_6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)  | [From Daniel Dorado](https://www.linkedin.com/posts/doradodaniel_computervision-spatialai-sim2real-share-7474727487374184448-NhwX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)  |  [From Asier](https://www.linkedin.com/posts/asierarranz_nvidia-physicalai-isaaclab-ugcPost-7480271721942417408-YNwu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6WUL4BWkFeyUj0TJ5JlGf6IG4iRHAicUo)  | 
 
-| <img src="https://279070161-sketch.github.io/dli-course/video/S4.mp4" height="100"> |
+| <img src="/community/sim-to-real-vla.gif" height="100"> |
 | --- |
 | [Seeed reBot Arm と NVIDIA Isaac の Sim-to-Real VLA コース](https://www.seeedstudio.com/sim-to-real-with-seeed-rebot-and-nvidia-isaac) |
 
